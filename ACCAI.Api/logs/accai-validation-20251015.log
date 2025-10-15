@@ -1,0 +1,46 @@
+2025-10-15 15:19:24.826 -05:00 [INF] Now listening on: http://localhost:5000
+2025-10-15 15:19:24.866 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-15 15:19:24.866 -05:00 [INF] Hosting environment: Production
+2025-10-15 15:19:24.866 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Api
+2025-10-15 15:28:11.166 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - multipart/form-data; boundary=--------------------------165367112834729730630846 12038
+2025-10-15 15:28:11.255 -05:00 [INF] Executing endpoint '415 HTTP Unsupported Media Type'
+2025-10-15 15:28:11.255 -05:00 [INF] Executed endpoint '415 HTTP Unsupported Media Type'
+2025-10-15 15:28:11.256 -05:00 [INF] HTTP POST /api/fp-changes/validate responded 415 in 3.0666 ms
+2025-10-15 15:28:11.261 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - 415 0 null 95.268ms
+2025-10-15 15:33:31.631 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - multipart/form-data; boundary=--------------------------216248919748173741941617 12038
+2025-10-15 15:33:31.637 -05:00 [INF] Executing endpoint '415 HTTP Unsupported Media Type'
+2025-10-15 15:33:31.637 -05:00 [INF] Executed endpoint '415 HTTP Unsupported Media Type'
+2025-10-15 15:33:31.637 -05:00 [INF] HTTP POST /api/fp-changes/validate responded 415 in 0.5252 ms
+2025-10-15 15:33:31.642 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - 415 0 null 11.8326ms
+2025-10-15 15:33:37.406 -05:00 [INF] Application is shutting down...
+2025-10-15 15:33:44.146 -05:00 [INF] Now listening on: http://localhost:5000
+2025-10-15 15:33:44.186 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-15 15:33:44.186 -05:00 [INF] Hosting environment: Production
+2025-10-15 15:33:44.186 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Api
+2025-10-15 15:34:25.444 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - multipart/form-data; boundary=--------------------------091649528861034505925759 12038
+2025-10-15 15:34:25.538 -05:00 [ERR] Unhandled error
+System.InvalidOperationException: Endpoint HTTP: POST /api/fp-changes/validate contains anti-forgery metadata, but a middleware was not found that supports anti-forgery.
+Configure your application startup by adding app.UseAntiforgery() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAntiforgery() must go between them. Calls to app.UseAntiforgery() must be placed after calls to app.UseAuthentication() and app.UseAuthorization().
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAntiforgeryMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at ACCAI.Api.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Api/Middleware/ExceptionMiddleware.cs:line 1
+2025-10-15 15:34:25.559 -05:00 [ERR] HTTP POST /api/fp-changes/validate responded 500 in 21.2370 ms
+2025-10-15 15:34:25.563 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - 500 null application/json; charset=utf-8 120.3912ms
+2025-10-15 15:37:53.899 -05:00 [INF] Application is shutting down...
+2025-10-15 15:37:56.807 -05:00 [INF] Now listening on: http://localhost:5000
+2025-10-15 15:37:56.846 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-15 15:37:56.846 -05:00 [INF] Hosting environment: Production
+2025-10-15 15:37:56.846 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Api
+2025-10-15 15:38:00.939 -05:00 [INF] Application is shutting down...
+2025-10-15 15:38:16.535 -05:00 [INF] Now listening on: http://localhost:5000
+2025-10-15 15:38:16.575 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-15 15:38:16.575 -05:00 [INF] Hosting environment: Production
+2025-10-15 15:38:16.575 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Api
+2025-10-15 15:38:23.125 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - multipart/form-data; boundary=--------------------------291336411091663656811777 12038
+2025-10-15 15:38:23.216 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/validate'
+2025-10-15 15:38:23.241 -05:00 [INF] Setting HTTP status code 400.
+2025-10-15 15:38:23.246 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-15 15:38:23.257 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/validate'
+2025-10-15 15:38:23.258 -05:00 [INF] HTTP POST /api/fp-changes/validate responded 400 in 43.2522 ms
+2025-10-15 15:38:23.264 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - 400 null application/json; charset=utf-8 139.595ms
+2025-10-15 15:39:28.201 -05:00 [INF] Application is shutting down...

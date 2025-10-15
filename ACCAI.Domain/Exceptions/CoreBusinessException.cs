@@ -1,1 +1,6 @@
-namespace ACCAI.Domain.Exceptions; public class CoreBusinessException : Exception { public CoreBusinessException(string message) : base(message) { } }
+namespace ACCAI.Domain.Exceptions;
+
+public class CoreBusinessException : Exception
+{
+    public CoreBusinessException(string message) : base(message) { }
+}

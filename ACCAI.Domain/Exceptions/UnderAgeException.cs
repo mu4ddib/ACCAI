@@ -1,1 +1,6 @@
-namespace ACCAI.Domain.Exceptions; public sealed class UnderAgeException : CoreBusinessException { public UnderAgeException() : base("Under age to vote.") {} }
+namespace ACCAI.Domain.Exceptions;
+
+public sealed class UnderAgeException : CoreBusinessException
+{
+    public UnderAgeException() : base("Under age to vote.") {}
+}

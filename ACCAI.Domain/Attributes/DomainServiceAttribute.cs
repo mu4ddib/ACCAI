@@ -1,1 +1,3 @@
-namespace ACCAI.Domain.Attributes; [AttributeUsage(AttributeTargets.Class)] public sealed class DomainServiceAttribute : Attribute { }
+namespace ACCAI.Domain.Attributes; 
+[AttributeUsage(AttributeTargets.Class)] 
+public sealed class DomainServiceAttribute : Attribute { }

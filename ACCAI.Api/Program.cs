@@ -7,7 +7,20 @@ using ACCAI.Infrastructure.Extensions;
 using ACCAI.Domain.Services;
 using Prometheus;
 using FluentValidation;
+using Serilog;
+
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .Enrich.FromLogContext()
+    .WriteTo.Console()
+    .WriteTo.File("logs/accai-validation-.log", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Host.UseSerilog();
+
 var cfg = builder.Configuration;
 builder.Services.AddDbContext<DataContext>(opt => opt.UseSqlServer(cfg.GetConnectionString("db")));
 builder.Services.AddMediatR(cfgr => cfgr.RegisterServicesFromAssembly(typeof(ApplicationAssembly).Assembly));
@@ -20,8 +33,10 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment()){ app.UseSwagger(); app.UseSwaggerUI(); }
 app.UseRouting();
 app.UseHttpMetrics();
+app.UseSerilogRequestLogging();
 app.UseMiddleware<ACCAI.Api.Middleware.ExceptionMiddleware>();
 ACCAI.Api.Endpoints.VoterEndpoints.Map(app);
+ACCAI.Api.Endpoints.FpChangesEndPoints.Map(app);
 app.MapHealthChecks("/health");
 app.MapMetrics();
 app.Run();
