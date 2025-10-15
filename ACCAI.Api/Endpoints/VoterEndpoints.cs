@@ -6,7 +6,7 @@ using ACCAI.Domain.ReadModels;
 using Microsoft.AspNetCore.OpenApi;
 
 namespace ACCAI.Api.Endpoints;
-public static class VoterEndpoints
+public static class  VoterEndpoints
 {
     public static void Map(WebApplication app)
     {

@@ -44,3 +44,78 @@ Configure your application startup by adding app.UseAntiforgery() in the applica
 2025-10-15 15:38:23.258 -05:00 [INF] HTTP POST /api/fp-changes/validate responded 400 in 43.2522 ms
 2025-10-15 15:38:23.264 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - 400 null application/json; charset=utf-8 139.595ms
 2025-10-15 15:39:28.201 -05:00 [INF] Application is shutting down...
+2025-10-15 18:13:36.006 -05:00 [INF] Now listening on: http://localhost:5000
+2025-10-15 18:13:36.047 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-15 18:13:36.047 -05:00 [INF] Hosting environment: Production
+2025-10-15 18:13:36.047 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Api
+2025-10-15 18:13:57.198 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - multipart/form-data; boundary=--------------------------147663962091450611476470 12038
+2025-10-15 18:13:57.281 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/validate'
+2025-10-15 18:13:57.310 -05:00 [INF] Setting HTTP status code 400.
+2025-10-15 18:13:57.316 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-15 18:13:57.325 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/validate'
+2025-10-15 18:13:57.326 -05:00 [INF] HTTP POST /api/fp-changes/validate responded 400 in 46.4518 ms
+2025-10-15 18:13:57.331 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - 400 null application/json; charset=utf-8 134.1183ms
+2025-10-15 18:25:53.511 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - multipart/form-data; boundary=--------------------------660930417782497509780510 12038
+2025-10-15 18:25:53.516 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/validate'
+2025-10-15 18:25:53.524 -05:00 [INF] Setting HTTP status code 400.
+2025-10-15 18:25:53.524 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-15 18:25:53.526 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/validate'
+2025-10-15 18:25:53.526 -05:00 [INF] HTTP POST /api/fp-changes/validate responded 400 in 9.4943 ms
+2025-10-15 18:25:53.528 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - 400 null application/json; charset=utf-8 17.0844ms
+2025-10-15 18:32:44.253 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - multipart/form-data; boundary=--------------------------201686162272443575211232 12038
+2025-10-15 18:32:44.255 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/validate'
+2025-10-15 18:32:44.258 -05:00 [INF] Setting HTTP status code 400.
+2025-10-15 18:32:44.259 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-15 18:32:44.259 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/validate'
+2025-10-15 18:32:44.259 -05:00 [INF] HTTP POST /api/fp-changes/validate responded 400 in 4.1193 ms
+2025-10-15 18:32:44.259 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - 400 null application/json; charset=utf-8 6.5077ms
+2025-10-15 18:33:01.522 -05:00 [INF] Application is shutting down...
+2025-10-15 18:33:07.836 -05:00 [INF] Now listening on: http://localhost:5000
+2025-10-15 18:33:07.878 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-15 18:33:07.878 -05:00 [INF] Hosting environment: Production
+2025-10-15 18:33:07.878 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Api
+2025-10-15 18:33:33.080 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-10-15 18:33:33.168 -05:00 [INF] HTTP GET / responded 404 in 0.9742 ms
+2025-10-15 18:33:33.173 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 92.8045ms
+2025-10-15 18:33:33.174 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+2025-10-15 18:33:41.339 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - null null
+2025-10-15 18:33:41.341 -05:00 [INF] HTTP GET /swagger responded 404 in 0.0460 ms
+2025-10-15 18:33:41.341 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - 404 0 null 2.5132ms
+2025-10-15 18:33:41.341 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/swagger, Response status code: 404
+2025-10-15 18:34:25.534 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-10-15 18:34:25.536 -05:00 [INF] HTTP GET /swagger/index.html responded 404 in 0.0464 ms
+2025-10-15 18:34:25.537 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 404 0 null 3.8499ms
+2025-10-15 18:34:25.537 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/swagger/index.html, Response status code: 404
+2025-10-15 18:35:42.808 -05:00 [INF] Application is shutting down...
+2025-10-15 18:35:53.322 -05:00 [INF] Now listening on: http://localhost:5000
+2025-10-15 18:35:53.363 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-15 18:35:53.363 -05:00 [INF] Hosting environment: Production
+2025-10-15 18:35:53.363 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Api
+2025-10-15 18:35:57.884 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-10-15 18:35:57.945 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 62.6427ms
+2025-10-15 18:35:57.951 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - null null
+2025-10-15 18:35:57.951 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - null null
+2025-10-15 18:35:57.952 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - null null
+2025-10-15 18:35:57.962 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-10-15 18:35:57.962 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-10-15 18:35:57.962 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-10-15 18:35:57.963 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 10.5696ms
+2025-10-15 18:35:57.963 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - 200 152034 text/css 12.0342ms
+2025-10-15 18:35:57.963 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 11.0856ms
+2025-10-15 18:35:58.072 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-16x16.png - null null
+2025-10-15 18:35:58.072 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - null null
+2025-10-15 18:35:58.073 -05:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2025-10-15 18:35:58.073 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-10-15 18:35:58.075 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - 200 628 image/png 2.5245ms
+2025-10-15 18:35:58.075 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-16x16.png - 200 665 image/png 2.841ms
+2025-10-15 18:35:58.094 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-10-15 18:35:58.103 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-10-15 18:35:58.246 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 151.9439ms
+2025-10-15 18:40:04.629 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - multipart/form-data; boundary=--------------------------212652486185363415485205 12038
+2025-10-15 18:40:04.658 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/validate'
+2025-10-15 18:40:04.695 -05:00 [INF] Setting HTTP status code 400.
+2025-10-15 18:40:04.702 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-15 18:40:04.706 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/validate'
+2025-10-15 18:40:04.707 -05:00 [INF] HTTP POST /api/fp-changes/validate responded 400 in 51.6545 ms
+2025-10-15 18:40:04.711 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - 400 null application/json; charset=utf-8 82.3009ms
+2025-10-15 18:52:46.030 -05:00 [INF] Application is shutting down...

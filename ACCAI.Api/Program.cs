@@ -29,14 +29,17 @@ builder.Services.AddHealthChecks().AddDbContextCheck<DataContext>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAttributedServices(typeof(RecordVoterService).Assembly, typeof(DataContext).Assembly);
+builder.Services.AddInfrastructure();
 var app = builder.Build();
-if (app.Environment.IsDevelopment()){ app.UseSwagger(); app.UseSwaggerUI(); }
+//if (app.Environment.IsDevelopment()){ app.UseSwagger(); app.UseSwaggerUI(); }
+app.UseSwagger(); 
+app.UseSwaggerUI();
 app.UseRouting();
 app.UseHttpMetrics();
 app.UseSerilogRequestLogging();
 app.UseMiddleware<ACCAI.Api.Middleware.ExceptionMiddleware>();
 ACCAI.Api.Endpoints.VoterEndpoints.Map(app);
-ACCAI.Api.Endpoints.FpChangesEndPoints.Map(app);
+ACCAI.Api.Endpoints.FpChangesEndpoints.Map(app);
 app.MapHealthChecks("/health");
 app.MapMetrics();
 app.Run();

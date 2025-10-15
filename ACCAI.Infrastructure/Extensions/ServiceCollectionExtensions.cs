@@ -3,6 +3,8 @@ using Microsoft.Extensions.DependencyInjection;
 using ACCAI.Domain.Attributes;
 using ACCAI.Domain.Ports;
 using ACCAI.Infrastructure.Adapters;
+using ACCAI.Application.FpChanges;
+using ACCAI.Infrastructure.Parsers;
 namespace ACCAI.Infrastructure.Extensions;
 public static class ServiceCollectionExtensions
 {
@@ -21,6 +23,12 @@ public static class ServiceCollectionExtensions
             }
         }
         services.AddScoped<IUnitOfWork, UnitOfWork>();
+        return services;
+    }
+    
+    public static IServiceCollection AddInfrastructure(this IServiceCollection services)
+    {
+        services.AddScoped<IFpChangeCsvParser, FpChangeCsvParser>();
         return services;
     }
 }

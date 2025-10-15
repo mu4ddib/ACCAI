@@ -172,6 +172,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.10, )"
             }
           },
           "imports": [
@@ -274,6 +278,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Application/ACCAI.Application.csproj": {
+                "projectPath": "/Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Application/ACCAI.Application.csproj"
+              },
               "/Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Domain/ACCAI.Domain.csproj": {
                 "projectPath": "/Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Domain/ACCAI.Domain.csproj"
               }
@@ -295,6 +302,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.1.0, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.1.35, )"

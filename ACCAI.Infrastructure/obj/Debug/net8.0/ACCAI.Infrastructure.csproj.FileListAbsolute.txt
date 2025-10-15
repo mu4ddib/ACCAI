@@ -29,3 +29,5 @@
 /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Infrastructure/obj/Debug/net8.0/refint/ACCAI.Infrastructure.dll
 /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Infrastructure/obj/Debug/net8.0/ACCAI.Infrastructure.pdb
 /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Infrastructure/obj/Debug/net8.0/ref/ACCAI.Infrastructure.dll
+/Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Infrastructure/bin/Debug/net8.0/ACCAI.Application.dll
+/Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Infrastructure/bin/Debug/net8.0/ACCAI.Application.pdb
