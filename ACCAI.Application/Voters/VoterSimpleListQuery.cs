@@ -1,0 +1,1 @@
+using MediatR; using ACCAI.Domain.ReadModels; namespace ACCAI.Application.Voters; public sealed record VoterSimpleListQuery() : IRequest<IEnumerable<VoterSimpleDto>>;

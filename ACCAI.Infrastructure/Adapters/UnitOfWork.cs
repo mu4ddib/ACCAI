@@ -1,0 +1,1 @@
+using ACCAI.Domain.Ports; using ACCAI.Infrastructure.DataSource; namespace ACCAI.Infrastructure.Adapters; public sealed class UnitOfWork : IUnitOfWork { private readonly DataContext _ctx; public UnitOfWork(DataContext ctx)=>_ctx=ctx; public Task<int> SaveChangesAsync(CancellationToken ct=default)=>_ctx.SaveChangesAsync(ct);}

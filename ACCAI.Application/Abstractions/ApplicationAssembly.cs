@@ -1,0 +1,1 @@
+namespace ACCAI.Application.Abstractions; public static class ApplicationAssembly { }

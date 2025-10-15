@@ -1,0 +1,15 @@
+/Users/jamesvanstrahlen/Downloads/src-2/ACCAI.Application/obj/Debug/net8.0/ACCAI.Application.csproj.AssemblyReference.cache
+/Users/jamesvanstrahlen/Downloads/src-2/ACCAI.Application/obj/Debug/net8.0/ACCAI.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jamesvanstrahlen/Downloads/src-2/ACCAI.Application/obj/Debug/net8.0/ACCAI.Application.AssemblyInfoInputs.cache
+/Users/jamesvanstrahlen/Downloads/src-2/ACCAI.Application/obj/Debug/net8.0/ACCAI.Application.AssemblyInfo.cs
+/Users/jamesvanstrahlen/Downloads/src-2/ACCAI.Application/obj/Debug/net8.0/ACCAI.Application.csproj.CoreCompileInputs.cache
+/Users/jamesvanstrahlen/Downloads/src-2/ACCAI.Application/bin/Debug/net8.0/ACCAI.Application.deps.json
+/Users/jamesvanstrahlen/Downloads/src-2/ACCAI.Application/bin/Debug/net8.0/ACCAI.Application.dll
+/Users/jamesvanstrahlen/Downloads/src-2/ACCAI.Application/bin/Debug/net8.0/ACCAI.Application.pdb
+/Users/jamesvanstrahlen/Downloads/src-2/ACCAI.Application/bin/Debug/net8.0/ACCAI.Domain.dll
+/Users/jamesvanstrahlen/Downloads/src-2/ACCAI.Application/bin/Debug/net8.0/ACCAI.Domain.pdb
+/Users/jamesvanstrahlen/Downloads/src-2/ACCAI.Application/obj/Debug/net8.0/ACCAI.Ap.747DA40A.Up2Date
+/Users/jamesvanstrahlen/Downloads/src-2/ACCAI.Application/obj/Debug/net8.0/ACCAI.Application.dll
+/Users/jamesvanstrahlen/Downloads/src-2/ACCAI.Application/obj/Debug/net8.0/refint/ACCAI.Application.dll
+/Users/jamesvanstrahlen/Downloads/src-2/ACCAI.Application/obj/Debug/net8.0/ACCAI.Application.pdb
+/Users/jamesvanstrahlen/Downloads/src-2/ACCAI.Application/obj/Debug/net8.0/ref/ACCAI.Application.dll
