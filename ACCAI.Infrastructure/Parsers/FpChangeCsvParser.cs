@@ -31,21 +31,29 @@ public sealed class FpChangeCsvParser : IFpChangeCsvParser
         if (await csv.ReadAsync())
         {
             csv.ReadHeader(); 
-            header = csv.HeaderRecord ?? Array.Empty<string>();
+            header = csv.HeaderRecord ?? [];
         }
 
         while (await csv.ReadAsync())
         {
             var r = new FpChangeCsvRow(
-                (csv.GetField("Contrato") ?? "").Trim(),
-                (csv.GetField("Producto") ?? "").Trim(),
-                (csv.GetField("PlanProducto") ?? "").Trim(),
+                        
+                (csv.GetField("Apellidos") ?? "").Trim(),
+                (csv.GetField("Nombres") ?? "").Trim(),
                 (csv.GetField("NroDocum") ?? "").Trim(),
                 (csv.GetField("TipoDocum") ?? "").Trim(),
-                (csv.GetField("IdAgteNuevo") ?? "").Trim(),
+                (csv.GetField("Producto") ?? "").Trim(),
+                (csv.GetField("PlanProducto") ?? "").Trim(),
+                (csv.GetField("Contrato") ?? "").Trim(),
+                (csv.GetField("Empresa") ?? "").Trim(),
+                (csv.GetField("Segmento") ?? "").Trim(),
+                (csv.GetField("Ciudad") ?? "").Trim(),
                 (csv.GetField("IdAgte") ?? "").Trim(),
+                (csv.GetField("IdAgteNuevo") ?? "").Trim(),
+                (csv.GetField("NombreAgteNuevo") ?? "").Trim(),
                 (csv.GetField("SubGrupoFp") ?? "").Trim(),
-                (csv.GetField("MotivoCambio") ?? "").Trim()
+                (csv.GetField("descripcion") ?? "").Trim()
+                
             );
             rows.Add(r);
         }

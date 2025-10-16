@@ -12,11 +12,11 @@ public sealed class ValidateFpChangesCsvCommandHandler
     private readonly IValidator<FpChangeCsvRow> _rowValidator;
     private readonly ILogger<ValidateFpChangesCsvCommandHandler> _log;
 
-    private static readonly string[] ExpectedHeaders = new[]
-    {
-        "Apellidos","Nombres","NroDocum","TipoDocum","Contrato","Producto","PlanProducto","NroDocum","TipoDocum",
-        "IdAgteNuevo","IdAgte","SubGrupoFp","MotivoCambio"
-    };
+    private static readonly string[] ExpectedHeaders =
+    [
+        "Apellidos","Nombres","NroDocum","TipoDocum","Producto","PlanProducto","Contrato","Empresa","Segmento",
+        "Ciudad","IdAgte","NombreAgte","IdAgteNuevo","NombreAgteNuevo","SubGrupoFp","descripcion"
+    ];
 
     public ValidateFpChangesCsvCommandHandler(
         IFpChangeCsvParser parser,
@@ -34,7 +34,7 @@ public sealed class ValidateFpChangesCsvCommandHandler
         
         if (request.FileLength <= 0)
             return ValidationResponseDto.Fail("Archivo vacío.", cid);
-        if (request.FileLength > 1_000_000) // 1MB
+        if (request.FileLength > 1_000_000)
             return ValidationResponseDto.Fail("Tamaño máximo 1MB.", cid);
         
         var parsed = await _parser.ParseAsync(request.FileStream, ct);
@@ -56,14 +56,12 @@ public sealed class ValidateFpChangesCsvCommandHandler
             var rowIndex = i + 2; 
 
             var result = await _rowValidator.ValidateAsync(row, ct);
-            if (!result.IsValid)
+            if (result.IsValid) continue;
+            foreach (var e in result.Errors)
             {
-                foreach (var e in result.Errors)
-                {
-                    var err = new RowError(rowIndex, e.PropertyName, e.ErrorMessage, GetRaw(row, e.PropertyName));
-                    errors.Add(err);
-                    _log.LogWarning("CSV validation error {@err} CorrelationId={CorrelationId}", err, cid);
-                }
+                var err = new RowError(rowIndex, e.PropertyName, e.ErrorMessage, GetRaw(row, e.PropertyName));
+                errors.Add(err);
+                _log.LogWarning("CSV validation error {@err} CorrelationId={CorrelationId}", err, cid);
             }
         }
 
@@ -80,15 +78,20 @@ public sealed class ValidateFpChangesCsvCommandHandler
 
     private static string? GetRaw(FpChangeCsvRow r, string prop) => prop switch
     {
-        nameof(FpChangeCsvRow.Contrato)     => r.Contrato,
-        nameof(FpChangeCsvRow.Producto)     => r.Producto,
-        nameof(FpChangeCsvRow.PlanProducto) => r.PlanProducto,
+        nameof(FpChangeCsvRow.Apellidos) => r.Apellidos,
+        nameof(FpChangeCsvRow.Nombres) => r.Nombres,
         nameof(FpChangeCsvRow.NroDocum)     => r.NroDocum,
         nameof(FpChangeCsvRow.TipoDocum)    => r.TipoDocum,
-        nameof(FpChangeCsvRow.IdAgteNuevo)  => r.IdAgteNuevo,
+        nameof(FpChangeCsvRow.Producto)     => r.Producto,
+        nameof(FpChangeCsvRow.PlanProducto) => r.PlanProducto,
+        nameof(FpChangeCsvRow.Contrato)     => r.Contrato,
+        nameof(FpChangeCsvRow.Empresa)      => r.Empresa,
+        nameof(FpChangeCsvRow.Segmento)      => r.Segmento,
+        nameof(FpChangeCsvRow.Ciudad)      => r.Ciudad,
         nameof(FpChangeCsvRow.IdAgte)       => r.IdAgte,
+        nameof(FpChangeCsvRow.IdAgteNuevo)  => r.IdAgteNuevo,
         nameof(FpChangeCsvRow.SubGrupoFp)   => r.SubGrupoFp,
-        nameof(FpChangeCsvRow.MotivoCambio) => r.MotivoCambio,
+        nameof(FpChangeCsvRow.descripcion)  => r.descripcion,
         _ => null
     };
 }

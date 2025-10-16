@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ACCAI.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+896e57986b2851d5e61995abcdcfa2570f392f34")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11fee43a3d45727f37e4b28dd360a137fb1ab5b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ACCAI.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ACCAI.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

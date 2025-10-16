@@ -5,19 +5,26 @@ using ACCAI.Application.FpChanges;
 
 namespace ACCAI.Api.Endpoints;
 
+/// <summary>
+/// 
+/// </summary>
 public static class FpChangesEndpoints
 {
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="app"></param>
     public static void Map(WebApplication app)
     {
         var group = app.MapGroup("/api/fp-changes").WithTags("FP Changes");
 
-        group.MapPost("/validate", async Task<IResult> (
+        group.MapPost("/upload", async Task<IResult> (
                 [FromForm] IFormFile file,
                 IMediator mediator,
                 CancellationToken ct
             ) =>
             {
-                if (file is null || file.Length == 0)
+                if (file.Length == 0)
                 {
                     var cid = Guid.NewGuid().ToString("N");
                     return Results.BadRequest(ValidationResponseDto.Fail("Archivo vacío.", cid));

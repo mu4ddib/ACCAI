@@ -119,3 +119,75 @@ Configure your application startup by adding app.UseAntiforgery() in the applica
 2025-10-15 18:40:04.707 -05:00 [INF] HTTP POST /api/fp-changes/validate responded 400 in 51.6545 ms
 2025-10-15 18:40:04.711 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/validate - 400 null application/json; charset=utf-8 82.3009ms
 2025-10-15 18:52:46.030 -05:00 [INF] Application is shutting down...
+2025-10-15 22:17:50.894 -05:00 [INF] Now listening on: http://localhost:5000
+2025-10-15 22:17:50.935 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-15 22:17:50.936 -05:00 [INF] Hosting environment: Production
+2025-10-15 22:17:50.936 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Api
+2025-10-15 22:17:56.429 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-10-15 22:17:56.550 -05:00 [INF] HTTP GET / responded 404 in 1.5080 ms
+2025-10-15 22:17:56.562 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 135.0587ms
+2025-10-15 22:17:56.567 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+2025-10-15 22:17:56.583 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/apple-touch-icon-precomposed.png - null null
+2025-10-15 22:17:56.587 -05:00 [INF] HTTP GET /apple-touch-icon-precomposed.png responded 404 in 0.0490 ms
+2025-10-15 22:17:56.590 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/apple-touch-icon-precomposed.png - 404 0 null 8.3145ms
+2025-10-15 22:17:56.595 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/apple-touch-icon-precomposed.png, Response status code: 404
+2025-10-15 22:17:56.596 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/apple-touch-icon.png - null null
+2025-10-15 22:17:56.599 -05:00 [INF] HTTP GET /apple-touch-icon.png responded 404 in 0.0344 ms
+2025-10-15 22:17:56.600 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/apple-touch-icon.png - 404 0 null 3.5372ms
+2025-10-15 22:17:56.600 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/apple-touch-icon.png, Response status code: 404
+2025-10-15 22:18:01.701 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-10-15 22:18:01.702 -05:00 [INF] HTTP GET / responded 404 in 0.0274 ms
+2025-10-15 22:18:01.703 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 1.1916ms
+2025-10-15 22:18:01.703 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+2025-10-15 22:18:02.842 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-10-15 22:18:02.844 -05:00 [INF] HTTP GET / responded 404 in 0.0273 ms
+2025-10-15 22:18:02.844 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 2.0014ms
+2025-10-15 22:18:02.844 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+2025-10-15 22:18:03.049 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-10-15 22:18:03.097 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 48.0302ms
+2025-10-15 22:18:03.212 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-10-15 22:18:03.216 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-10-15 22:18:03.255 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 42.7587ms
+2025-10-15 22:18:15.993 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------927158629830450519227743 12038
+2025-10-15 22:18:15.997 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-15 22:18:16.026 -05:00 [INF] Setting HTTP status code 400.
+2025-10-15 22:18:16.032 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-15 22:18:16.037 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-15 22:18:16.037 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 42.8110 ms
+2025-10-15 22:18:16.038 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 44.565ms
+2025-10-15 22:29:28.370 -05:00 [INF] Application is shutting down...
+2025-10-15 22:29:32.361 -05:00 [INF] Now listening on: http://localhost:5000
+2025-10-15 22:29:32.401 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-15 22:29:32.402 -05:00 [INF] Hosting environment: Production
+2025-10-15 22:29:32.402 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Api
+2025-10-15 22:29:38.084 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------949706112759130238569217 12038
+2025-10-15 22:29:38.162 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-15 22:29:38.185 -05:00 [INF] Setting HTTP status code 400.
+2025-10-15 22:29:38.191 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-15 22:29:38.199 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-15 22:29:38.200 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 38.8206 ms
+2025-10-15 22:29:38.205 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 122.4713ms
+2025-10-15 22:29:50.888 -05:00 [INF] Application is shutting down...
+2025-10-15 22:30:05.495 -05:00 [INF] Now listening on: http://localhost:5000
+2025-10-15 22:30:05.538 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-15 22:30:05.538 -05:00 [INF] Hosting environment: Production
+2025-10-15 22:30:05.538 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Api
+2025-10-15 22:30:08.990 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------219442150090369812810304 12038
+2025-10-15 22:30:09.067 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-15 22:30:09.091 -05:00 [INF] Setting HTTP status code 400.
+2025-10-15 22:30:09.097 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-15 22:30:09.105 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-15 22:30:09.106 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 39.8868 ms
+2025-10-15 22:30:09.110 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 121.3963ms
+2025-10-15 22:30:51.452 -05:00 [INF] Application is shutting down...
+2025-10-15 22:30:56.925 -05:00 [INF] Now listening on: http://localhost:5000
+2025-10-15 22:30:56.963 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-15 22:30:56.963 -05:00 [INF] Hosting environment: Production
+2025-10-15 22:30:56.963 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Api
+2025-10-15 22:30:59.797 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------683012913781489313756689 12038
+2025-10-15 22:30:59.873 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-15 22:30:59.896 -05:00 [INF] Setting HTTP status code 400.
+2025-10-15 22:30:59.902 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-15 22:30:59.910 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-15 22:30:59.911 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 38.8867 ms
+2025-10-15 22:30:59.916 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 120.1044ms
