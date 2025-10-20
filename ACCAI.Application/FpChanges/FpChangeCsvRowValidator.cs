@@ -7,9 +7,6 @@ public sealed class FpChangeCsvRowValidator : AbstractValidator<FpChangeCsvRow>
 {
     private static readonly Regex DigitsOnly = new(@"^\d+$", RegexOptions.Compiled);
     
-    // private static readonly HashSet<string> DocTypes = new(StringComparer.OrdinalIgnoreCase)
-    //     { "C", "CE", "TI", "PA", "NIT" };
-
     public FpChangeCsvRowValidator()
     {
         RuleFor(x => x.Nombres)

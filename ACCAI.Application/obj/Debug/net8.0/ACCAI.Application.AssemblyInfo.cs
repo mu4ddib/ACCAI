@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ACCAI.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11fee43a3d45727f37e4b28dd360a137fb1ab5b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b7ba8cd5a7e588a551c2209e43d78484a22d671")]
 [assembly: System.Reflection.AssemblyProductAttribute("ACCAI.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ACCAI.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

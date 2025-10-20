@@ -24,12 +24,7 @@ public static class FpChangesEndpoints
                 CancellationToken ct
             ) =>
             {
-                if (file.Length == 0)
-                {
-                    var cid = Guid.NewGuid().ToString("N");
-                    return Results.BadRequest(ValidationResponseDto.Fail("Archivo vacío.", cid));
-                }
-
+                
                 using var ms = new MemoryStream();
                 await file.CopyToAsync(ms, ct);
                 ms.Position = 0;
