@@ -10,4 +10,7 @@ public sealed record ValidationResponseDto(
 
     public static ValidationResponseDto Fail(string message, string cid)
         => new(0, 1, cid, new List<RowError> { new RowError(0, "_archivo", message, null) });
+
 }
+
+public sealed record FailedChange(string Product, string Contract, string ErrorMessage);

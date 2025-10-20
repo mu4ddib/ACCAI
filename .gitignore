@@ -382,10 +382,9 @@ FodyWeavers.xsd
 /.sonarqube/
 /.sonarlint/
 
-#Variables de entorno
 
-/ACCAI.Api/bin
-/ACCAI.Api/obj
+/ACCAI.Api/bin/
+/ACCAI.Api/obj/
 /ACCAI.Api/.env
 
 /ACCAI.Application/bin
@@ -396,22 +395,5 @@ FodyWeavers.xsd
 
 /ACCAI.Infrastructure/bin
 /ACCAI.Infrastructure/obj
-
-#Test
-
-/ACCAI.Test/bin
-/ACCAI.Test/obj
-
-/ACCAI.Api.Test/bin
-/ACCAI.Api.Test/obj
-
-/ACCAI.Application.Test/bin
-/ACCAI.Application.Test/obj
-
-/ACCAI.Domain.Test/bin
-/ACCAI.Domain.Test/obj
-
-/ACCAI.Infrastructure.Test/bin
-/ACCAI.Infrastructure.Test/obj
 
 *.yml

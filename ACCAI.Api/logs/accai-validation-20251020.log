@@ -1,1 +1,210 @@
 2025-10-20 00:34:18.731 -05:00 [INF] Application is shutting down...
+2025-10-20 11:06:46.473 -05:00 [INF] Now listening on: https://localhost:63730
+2025-10-20 11:06:46.509 -05:00 [INF] Now listening on: http://localhost:63731
+2025-10-20 11:06:46.519 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-10-20 11:06:46.661 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 11:06:46.663 -05:00 [INF] Hosting environment: Development
+2025-10-20 11:06:46.665 -05:00 [INF] Content root path: C:\ACCAI\ACCAI.Api
+2025-10-20 11:06:48.012 -05:00 [INF] Request starting HTTP/2 GET https://localhost:63730/ - null null
+2025-10-20 11:06:48.231 -05:00 [INF] HTTP GET / responded 404 in 1.7973 ms
+2025-10-20 11:06:48.245 -05:00 [INF] Request finished HTTP/2 GET https://localhost:63730/ - 404 0 null 240.809ms
+2025-10-20 11:06:48.250 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63730/, Response status code: 404
+2025-10-20 11:19:27.486 -05:00 [INF] Now listening on: https://localhost:63730
+2025-10-20 11:19:27.520 -05:00 [INF] Now listening on: http://localhost:63731
+2025-10-20 11:19:27.528 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-10-20 11:19:27.673 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 11:19:27.675 -05:00 [INF] Hosting environment: Development
+2025-10-20 11:19:27.676 -05:00 [INF] Content root path: C:\ACCAI\ACCAI.Api
+2025-10-20 11:19:28.588 -05:00 [INF] Request starting HTTP/2 GET https://localhost:63730/ - null null
+2025-10-20 11:20:06.222 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:20:06.250 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:20:06.250 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:20:06.250 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:20:06.250 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:20:06.250 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:20:06.332 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:20:06.332 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:20:06.332 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:20:06.332 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:20:06.332 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:20:06.332 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:21:17.580 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:21:17.604 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:21:17.605 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:21:17.605 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:21:17.605 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:21:17.605 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:23:33.985 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:23:34.008 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:23:34.008 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:23:34.008 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:23:34.008 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:23:34.008 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:23:34.216 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:23:34.216 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:23:34.216 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:23:34.216 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:23:34.216 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:23:34.216 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:23:34.470 -05:00 [INF] Executed DbCommand (215ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [sigscg];
+2025-10-20 11:23:34.655 -05:00 [INF] Executed DbCommand (182ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [sigscg] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-10-20 11:23:34.676 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-10-20 11:23:34.719 -05:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2025-10-20 11:23:34.721 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-10-20 11:23:34.731 -05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-10-20 11:23:34.746 -05:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-10-20 11:23:34.755 -05:00 [INF] Applying migration '20251020162006_InitialCreate'.
+2025-10-20 11:23:34.781 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Contrato] (
+    [Id] int NOT NULL IDENTITY,
+    [Producto] nvarchar(max) NOT NULL,
+    [NumeroContrato] int NOT NULL,
+    [PlanProducto] nvarchar(max) NOT NULL,
+    [NroDocum] nvarchar(max) NOT NULL,
+    [TipoDocum] nvarchar(max) NOT NULL,
+    [PclidAfi] int NOT NULL,
+    [FecInicio] datetime2 NULL,
+    [FecEfectiva] datetime2 NULL,
+    [FecTerminacion] datetime2 NULL,
+    [Saldo] decimal(18,2) NULL,
+    [SaldoUn] decimal(18,2) NULL,
+    [FecSaldo] datetime2 NULL,
+    [ValorAporteMes] decimal(18,2) NULL,
+    [FecUltimoAporte] datetime2 NULL,
+    [EstadoContrato] nvarchar(max) NOT NULL,
+    [IdAgte] int NOT NULL,
+    [SaldoCapital] decimal(18,2) NULL,
+    [SaldoRendimientos] decimal(18,2) NULL,
+    [Cuenta] decimal(18,2) NULL,
+    CONSTRAINT [PK_Contrato] PRIMARY KEY ([Id])
+);
+2025-10-20 11:23:34.785 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Voters] (
+    [Id] uniqueidentifier NOT NULL,
+    [Nid] nvarchar(50) NOT NULL,
+    [DateOfBirth] datetime2 NOT NULL,
+    [Origin] nvarchar(80) NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [LastModifiedOn] datetime2 NOT NULL,
+    CONSTRAINT [PK_Voters] PRIMARY KEY ([Id])
+);
+2025-10-20 11:23:34.788 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Voters_Nid] ON [Voters] ([Nid]);
+2025-10-20 11:23:34.796 -05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20251020162006_InitialCreate', N'8.0.8');
+2025-10-20 11:24:12.079 -05:00 [INF] Now listening on: https://localhost:63730
+2025-10-20 11:24:12.114 -05:00 [INF] Now listening on: http://localhost:63731
+2025-10-20 11:24:12.122 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-10-20 11:24:12.290 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 11:24:12.291 -05:00 [INF] Hosting environment: Development
+2025-10-20 11:24:12.293 -05:00 [INF] Content root path: C:\ACCAI\ACCAI.Api
+2025-10-20 11:24:13.131 -05:00 [INF] Request starting HTTP/2 GET https://localhost:63730/ - null null
+2025-10-20 11:24:13.284 -05:00 [INF] HTTP GET / responded 404 in 1.4731 ms
+2025-10-20 11:24:13.297 -05:00 [INF] Request finished HTTP/2 GET https://localhost:63730/ - 404 0 null 172.5661ms
+2025-10-20 11:24:13.302 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63730/, Response status code: 404
+2025-10-20 11:28:25.521 -05:00 [INF] Now listening on: https://localhost:63730
+2025-10-20 11:28:25.552 -05:00 [INF] Now listening on: http://localhost:63731
+2025-10-20 11:28:25.561 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-10-20 11:28:25.703 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 11:28:25.704 -05:00 [INF] Hosting environment: Development
+2025-10-20 11:28:25.705 -05:00 [INF] Content root path: C:\ACCAI\ACCAI.Api
+2025-10-20 11:28:26.688 -05:00 [INF] Request starting HTTP/2 GET https://localhost:63730/ - null null
+2025-10-20 11:28:26.870 -05:00 [INF] HTTP GET / responded 404 in 1.4717 ms
+2025-10-20 11:28:26.883 -05:00 [INF] Request finished HTTP/2 GET https://localhost:63730/ - 404 0 null 206.3364ms
+2025-10-20 11:28:26.890 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:63730/, Response status code: 404
+2025-10-20 11:28:31.964 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:63730/api/fp-changes/upload - multipart/form-data; boundary=--------------------------153123982202343998041895 10971
+2025-10-20 11:28:31.978 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-20 11:28:32.999 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:28:33.002 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:28:33.003 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:28:33.005 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:28:33.007 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:28:33.008 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 11:29:19.712 -05:00 [INF] CSV validation passed. CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.790 -05:00 [INF] Sending CREA ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":5831,"Product":"CREA","ProductPlan":"1","Contract":51849,"$type":"ChangeFpItem"}
+2025-10-20 11:30:19.802 -05:00 [INF] Start processing HTTP request POST https://crea-api.local/api/CambioFp
+2025-10-20 11:30:19.805 -05:00 [INF] Sending HTTP request POST https://crea-api.local/api/CambioFp
+2025-10-20 11:30:19.839 -05:00 [ERR] Service resolution failed for product OMPEV. CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+System.InvalidOperationException: No ChangeFpService registered for product 'OMPEV'.
+   at ACCAI.Infrastructure.Adapters.ExternalServices.ChangeFpFactory.GetService(String product) in C:\ACCAI\ACCAI.Infrastructure\Adapters\ExternalServices\ChangeFpFactory.cs:line 25
+   at ACCAI.Application.FpChanges.ValidateFpChangesCsvCommandHandler.HandleProductGroupAsync(String product, IEnumerable`1 group, List`1 errors, String correlationId, CancellationToken ct) in C:\ACCAI\ACCAI.Application\FpChanges\ValidateFpChangesCsvCommandHandler.cs:line 143
+2025-10-20 11:30:19.883 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio OMPEV","Valor":"54712","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.886 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio OMPEV","Valor":"50651","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.889 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio OMPEV","Valor":"49928","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.895 -05:00 [INF] Sending ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":5831,"Product":"ACCAI","ProductPlan":"1","Contract":3224,"$type":"ChangeFpItem"}
+2025-10-20 11:30:19.899 -05:00 [INF] Start processing HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 11:30:19.900 -05:00 [INF] Sending HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 11:30:19.904 -05:00 [INF] Sending ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":5831,"Product":"ACCAI","ProductPlan":"1","Contract":5547,"$type":"ChangeFpItem"}
+2025-10-20 11:30:19.907 -05:00 [INF] Start processing HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 11:30:19.908 -05:00 [INF] Sending HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 11:30:19.911 -05:00 [INF] Sending ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":5831,"Product":"ACCAI","ProductPlan":"1","Contract":12163,"$type":"ChangeFpItem"}
+2025-10-20 11:30:19.915 -05:00 [INF] Start processing HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 11:30:19.916 -05:00 [INF] Sending HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 11:30:19.918 -05:00 [INF] Sending ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":5831,"Product":"ACCAI","ProductPlan":"1","Contract":14809,"$type":"ChangeFpItem"}
+2025-10-20 11:30:19.923 -05:00 [INF] Start processing HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 11:30:19.924 -05:00 [INF] Sending HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 11:30:19.956 -05:00 [ERR] Service resolution failed for product FPOB. CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+System.InvalidOperationException: No ChangeFpService registered for product 'FPOB'.
+   at ACCAI.Infrastructure.Adapters.ExternalServices.ChangeFpFactory.GetService(String product) in C:\ACCAI\ACCAI.Infrastructure\Adapters\ExternalServices\ChangeFpFactory.cs:line 25
+   at ACCAI.Application.FpChanges.ValidateFpChangesCsvCommandHandler.HandleProductGroupAsync(String product, IEnumerable`1 group, List`1 errors, String correlationId, CancellationToken ct) in C:\ACCAI\ACCAI.Application\FpChanges\ValidateFpChangesCsvCommandHandler.cs:line 143
+2025-10-20 11:30:19.959 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"178205","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.963 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"318829","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.966 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"321394","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.969 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"318891","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.971 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"250343","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.974 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"326493","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.978 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"331676","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.981 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"327358","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.984 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"326345","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.987 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"322063","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.990 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"321471","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.994 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"320250","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.997 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330544","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:19.999 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"292583","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.002 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330543","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.005 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330543","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.008 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"319936","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.011 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"326519","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.014 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"320991","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.018 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330146","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.021 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"322167","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.024 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"329600","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.027 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"327395","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.052 -05:00 [ERR] Service resolution failed for product FCES. CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+System.InvalidOperationException: No ChangeFpService registered for product 'FCES'.
+   at ACCAI.Infrastructure.Adapters.ExternalServices.ChangeFpFactory.GetService(String product) in C:\ACCAI\ACCAI.Infrastructure\Adapters\ExternalServices\ChangeFpFactory.cs:line 25
+   at ACCAI.Application.FpChanges.ValidateFpChangesCsvCommandHandler.HandleProductGroupAsync(String product, IEnumerable`1 group, List`1 errors, String correlationId, CancellationToken ct) in C:\ACCAI\ACCAI.Application\FpChanges\ValidateFpChangesCsvCommandHandler.cs:line 143
+2025-10-20 11:30:20.053 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"153560","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.057 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154719","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.060 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154719","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.064 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"153592","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.067 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"156548","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.070 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"156992","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.074 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"156482","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.077 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.080 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.084 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.088 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.091 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154016","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.094 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"153863","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.097 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154444","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.101 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"158376","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.104 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"157886","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 11:30:20.107 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"157886","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
