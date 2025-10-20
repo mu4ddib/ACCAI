@@ -1,1 +1,322 @@
 2025-10-16 00:10:19.749 -05:00 [INF] Application is shutting down...
+2025-10-16 10:14:57.999 -05:00 [INF] Now listening on: http://localhost:5000
+2025-10-16 10:14:58.041 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-16 10:14:58.041 -05:00 [INF] Hosting environment: Production
+2025-10-16 10:14:58.041 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Api
+2025-10-16 10:15:20.198 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------686819657444772879242686 12038
+2025-10-16 10:15:20.283 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:15:20.309 -05:00 [INF] Setting HTTP status code 400.
+2025-10-16 10:15:20.315 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-16 10:15:20.323 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:15:20.324 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 42.8925 ms
+2025-10-16 10:15:20.330 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 132.8526ms
+2025-10-16 10:16:37.381 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------861140706907516965172509 12126
+2025-10-16 10:16:37.387 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:16:37.392 -05:00 [INF] Setting HTTP status code 400.
+2025-10-16 10:16:37.393 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-16 10:16:37.393 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:16:37.393 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 6.0643 ms
+2025-10-16 10:16:37.396 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 15.7291ms
+2025-10-16 10:31:03.552 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------819358443556837656893068 9122
+2025-10-16 10:31:03.556 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:31:03.560 -05:00 [INF] Setting HTTP status code 400.
+2025-10-16 10:31:03.560 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-16 10:31:03.560 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:31:03.561 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 4.1714 ms
+2025-10-16 10:31:03.561 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 9.1811ms
+2025-10-16 10:31:29.800 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------178457639715858852325826 9045
+2025-10-16 10:31:29.801 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:31:29.803 -05:00 [INF] Setting HTTP status code 400.
+2025-10-16 10:31:29.803 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-16 10:31:29.803 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:31:29.803 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 2.2754 ms
+2025-10-16 10:31:29.804 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 3.9823ms
+2025-10-16 10:32:04.540 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------368544878435830830047895 9045
+2025-10-16 10:32:04.541 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:32:04.542 -05:00 [INF] Setting HTTP status code 400.
+2025-10-16 10:32:04.542 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-16 10:32:04.542 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:32:04.542 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 1.1729 ms
+2025-10-16 10:32:04.542 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 2.7096ms
+2025-10-16 10:32:40.740 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------564349783842605258045960 8558
+2025-10-16 10:32:40.743 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:32:40.745 -05:00 [INF] Setting HTTP status code 400.
+2025-10-16 10:32:40.746 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-16 10:32:40.746 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:32:40.747 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 3.6022 ms
+2025-10-16 10:32:40.747 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 6.911ms
+2025-10-16 10:32:53.351 -05:00 [INF] Application is shutting down...
+2025-10-16 10:32:57.288 -05:00 [INF] Now listening on: http://localhost:5000
+2025-10-16 10:32:57.328 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-16 10:32:57.329 -05:00 [INF] Hosting environment: Production
+2025-10-16 10:32:57.329 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Api
+2025-10-16 10:33:01.437 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------630225653150225445192718 8558
+2025-10-16 10:33:01.516 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:33:01.541 -05:00 [INF] Setting HTTP status code 400.
+2025-10-16 10:33:01.548 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-16 10:33:01.556 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:33:01.557 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 41.4213 ms
+2025-10-16 10:33:01.562 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 125.2565ms
+2025-10-16 10:33:51.722 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=----WebKitFormBoundarywMv0aPR2bIIrqMLY 44
+2025-10-16 10:33:51.727 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:33:51.728 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:33:51.728 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 1.3789 ms
+2025-10-16 10:33:51.729 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 0 null 7.7081ms
+2025-10-16 10:34:06.987 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=----WebKitFormBoundaryEbtHOQqRs9VgNyTC 44
+2025-10-16 10:34:06.989 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:34:06.990 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:34:06.995 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 5.5083 ms
+2025-10-16 10:34:06.995 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 0 null 8.2353ms
+2025-10-16 10:36:41.876 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------231794965352450573214438 8558
+2025-10-16 10:36:41.880 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:36:41.884 -05:00 [INF] Setting HTTP status code 400.
+2025-10-16 10:36:41.884 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-16 10:36:41.884 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:36:41.885 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 4.5505 ms
+2025-10-16 10:36:41.885 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 8.9387ms
+2025-10-16 10:39:41.633 -05:00 [INF] Application is shutting down...
+2025-10-16 10:39:55.014 -05:00 [INF] Now listening on: http://localhost:5000
+2025-10-16 10:39:55.056 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-16 10:39:55.057 -05:00 [INF] Hosting environment: Production
+2025-10-16 10:39:55.057 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Api
+2025-10-16 10:39:59.813 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------772666398590318793629371 8558
+2025-10-16 10:39:59.899 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:39:59.925 -05:00 [INF] Setting HTTP status code 400.
+2025-10-16 10:39:59.931 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-16 10:39:59.940 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:39:59.941 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 43.1993 ms
+2025-10-16 10:39:59.947 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 134.9472ms
+2025-10-16 10:40:51.396 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------219014804893272394774263 12738
+2025-10-16 10:40:51.402 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:40:51.408 -05:00 [INF] Setting HTTP status code 400.
+2025-10-16 10:40:51.410 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-16 10:40:51.412 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:40:51.412 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 10.4346 ms
+2025-10-16 10:40:51.413 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 17.9547ms
+2025-10-16 10:41:45.830 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------785776252643905959743079 12690
+2025-10-16 10:41:45.834 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:41:45.838 -05:00 [INF] Setting HTTP status code 400.
+2025-10-16 10:41:45.839 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-16 10:41:45.839 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:41:45.839 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 4.8060 ms
+2025-10-16 10:41:45.839 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 9.2085ms
+2025-10-16 10:43:04.643 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------349647015631018164703313 12040
+2025-10-16 10:43:04.645 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:43:04.649 -05:00 [INF] Setting HTTP status code 400.
+2025-10-16 10:43:04.649 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-16 10:43:04.650 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:43:04.650 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 4.6283 ms
+2025-10-16 10:43:04.650 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 7.8412ms
+2025-10-16 10:43:44.545 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - multipart/form-data; boundary=--------------------------726221764958840925402327 8572
+2025-10-16 10:43:44.548 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:43:44.566 -05:00 [WRN] CSV validation error {"Linea":2,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"CREA","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.569 -05:00 [WRN] CSV validation error {"Linea":2,"Campo":"Empresa","Mensaje":"Empresa es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.569 -05:00 [WRN] CSV validation error {"Linea":2,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.570 -05:00 [WRN] CSV validation error {"Linea":2,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.571 -05:00 [WRN] CSV validation error {"Linea":2,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.576 -05:00 [WRN] CSV validation error {"Linea":3,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"OMPEV","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.576 -05:00 [WRN] CSV validation error {"Linea":3,"Campo":"PlanProducto","Mensaje":"PlanProducto debe ser numérico.","Valor":"PV01","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.576 -05:00 [WRN] CSV validation error {"Linea":3,"Campo":"Empresa","Mensaje":"Empresa es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.576 -05:00 [WRN] CSV validation error {"Linea":3,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.577 -05:00 [WRN] CSV validation error {"Linea":3,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.577 -05:00 [WRN] CSV validation error {"Linea":3,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.577 -05:00 [WRN] CSV validation error {"Linea":4,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.577 -05:00 [WRN] CSV validation error {"Linea":4,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.578 -05:00 [WRN] CSV validation error {"Linea":4,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.579 -05:00 [WRN] CSV validation error {"Linea":5,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.579 -05:00 [WRN] CSV validation error {"Linea":5,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.579 -05:00 [WRN] CSV validation error {"Linea":5,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.580 -05:00 [WRN] CSV validation error {"Linea":6,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.580 -05:00 [WRN] CSV validation error {"Linea":6,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.581 -05:00 [WRN] CSV validation error {"Linea":6,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.581 -05:00 [WRN] CSV validation error {"Linea":7,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.581 -05:00 [WRN] CSV validation error {"Linea":7,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.582 -05:00 [WRN] CSV validation error {"Linea":7,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.582 -05:00 [WRN] CSV validation error {"Linea":7,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.582 -05:00 [WRN] CSV validation error {"Linea":8,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.583 -05:00 [WRN] CSV validation error {"Linea":8,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.583 -05:00 [WRN] CSV validation error {"Linea":8,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.584 -05:00 [WRN] CSV validation error {"Linea":8,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.584 -05:00 [WRN] CSV validation error {"Linea":9,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.584 -05:00 [WRN] CSV validation error {"Linea":9,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.585 -05:00 [WRN] CSV validation error {"Linea":9,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.585 -05:00 [WRN] CSV validation error {"Linea":9,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.591 -05:00 [WRN] CSV validation error {"Linea":10,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.591 -05:00 [WRN] CSV validation error {"Linea":10,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.592 -05:00 [WRN] CSV validation error {"Linea":10,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.592 -05:00 [WRN] CSV validation error {"Linea":10,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.592 -05:00 [WRN] CSV validation error {"Linea":11,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.593 -05:00 [WRN] CSV validation error {"Linea":11,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.593 -05:00 [WRN] CSV validation error {"Linea":11,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.594 -05:00 [WRN] CSV validation error {"Linea":11,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.594 -05:00 [WRN] CSV validation error {"Linea":12,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.595 -05:00 [WRN] CSV validation error {"Linea":12,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.596 -05:00 [WRN] CSV validation error {"Linea":12,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.596 -05:00 [WRN] CSV validation error {"Linea":12,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.597 -05:00 [WRN] CSV validation error {"Linea":13,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.597 -05:00 [WRN] CSV validation error {"Linea":13,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.597 -05:00 [WRN] CSV validation error {"Linea":13,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.597 -05:00 [WRN] CSV validation error {"Linea":13,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.598 -05:00 [WRN] CSV validation error {"Linea":14,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.598 -05:00 [WRN] CSV validation error {"Linea":14,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.598 -05:00 [WRN] CSV validation error {"Linea":14,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.599 -05:00 [WRN] CSV validation error {"Linea":15,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"OMPEV","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.599 -05:00 [WRN] CSV validation error {"Linea":15,"Campo":"PlanProducto","Mensaje":"PlanProducto debe ser numérico.","Valor":"PV01","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.600 -05:00 [WRN] CSV validation error {"Linea":15,"Campo":"Empresa","Mensaje":"Empresa es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.600 -05:00 [WRN] CSV validation error {"Linea":15,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.600 -05:00 [WRN] CSV validation error {"Linea":15,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.601 -05:00 [WRN] CSV validation error {"Linea":15,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.601 -05:00 [WRN] CSV validation error {"Linea":16,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"OMPEV","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.601 -05:00 [WRN] CSV validation error {"Linea":16,"Campo":"PlanProducto","Mensaje":"PlanProducto debe ser numérico.","Valor":"PV01","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.601 -05:00 [WRN] CSV validation error {"Linea":16,"Campo":"Empresa","Mensaje":"Empresa es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.602 -05:00 [WRN] CSV validation error {"Linea":16,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.608 -05:00 [WRN] CSV validation error {"Linea":16,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.608 -05:00 [WRN] CSV validation error {"Linea":16,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.608 -05:00 [WRN] CSV validation error {"Linea":17,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.609 -05:00 [WRN] CSV validation error {"Linea":17,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.609 -05:00 [WRN] CSV validation error {"Linea":17,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.609 -05:00 [WRN] CSV validation error {"Linea":17,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.610 -05:00 [WRN] CSV validation error {"Linea":18,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.610 -05:00 [WRN] CSV validation error {"Linea":18,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.610 -05:00 [WRN] CSV validation error {"Linea":18,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.611 -05:00 [WRN] CSV validation error {"Linea":18,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.611 -05:00 [WRN] CSV validation error {"Linea":19,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.611 -05:00 [WRN] CSV validation error {"Linea":19,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.611 -05:00 [WRN] CSV validation error {"Linea":19,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.612 -05:00 [WRN] CSV validation error {"Linea":19,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.612 -05:00 [WRN] CSV validation error {"Linea":20,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.613 -05:00 [WRN] CSV validation error {"Linea":20,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.614 -05:00 [WRN] CSV validation error {"Linea":20,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.614 -05:00 [WRN] CSV validation error {"Linea":20,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.614 -05:00 [WRN] CSV validation error {"Linea":21,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.616 -05:00 [WRN] CSV validation error {"Linea":21,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.616 -05:00 [WRN] CSV validation error {"Linea":21,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.617 -05:00 [WRN] CSV validation error {"Linea":21,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.617 -05:00 [WRN] CSV validation error {"Linea":22,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.618 -05:00 [WRN] CSV validation error {"Linea":22,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.618 -05:00 [WRN] CSV validation error {"Linea":22,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.618 -05:00 [WRN] CSV validation error {"Linea":22,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.620 -05:00 [WRN] CSV validation error {"Linea":23,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.621 -05:00 [WRN] CSV validation error {"Linea":23,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.623 -05:00 [WRN] CSV validation error {"Linea":23,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.623 -05:00 [WRN] CSV validation error {"Linea":23,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.624 -05:00 [WRN] CSV validation error {"Linea":24,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.624 -05:00 [WRN] CSV validation error {"Linea":24,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.625 -05:00 [WRN] CSV validation error {"Linea":24,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.625 -05:00 [WRN] CSV validation error {"Linea":24,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.625 -05:00 [WRN] CSV validation error {"Linea":25,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.626 -05:00 [WRN] CSV validation error {"Linea":25,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.626 -05:00 [WRN] CSV validation error {"Linea":25,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.626 -05:00 [WRN] CSV validation error {"Linea":25,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.627 -05:00 [WRN] CSV validation error {"Linea":26,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.628 -05:00 [WRN] CSV validation error {"Linea":26,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.628 -05:00 [WRN] CSV validation error {"Linea":26,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.628 -05:00 [WRN] CSV validation error {"Linea":26,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.629 -05:00 [WRN] CSV validation error {"Linea":27,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.629 -05:00 [WRN] CSV validation error {"Linea":27,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.629 -05:00 [WRN] CSV validation error {"Linea":27,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.630 -05:00 [WRN] CSV validation error {"Linea":27,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.630 -05:00 [WRN] CSV validation error {"Linea":28,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.631 -05:00 [WRN] CSV validation error {"Linea":28,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.631 -05:00 [WRN] CSV validation error {"Linea":28,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.631 -05:00 [WRN] CSV validation error {"Linea":28,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.643 -05:00 [WRN] CSV validation error {"Linea":29,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.643 -05:00 [WRN] CSV validation error {"Linea":29,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.645 -05:00 [WRN] CSV validation error {"Linea":29,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.650 -05:00 [WRN] CSV validation error {"Linea":29,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.652 -05:00 [WRN] CSV validation error {"Linea":30,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.657 -05:00 [WRN] CSV validation error {"Linea":30,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.657 -05:00 [WRN] CSV validation error {"Linea":30,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.660 -05:00 [WRN] CSV validation error {"Linea":30,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.662 -05:00 [WRN] CSV validation error {"Linea":31,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.665 -05:00 [WRN] CSV validation error {"Linea":31,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.665 -05:00 [WRN] CSV validation error {"Linea":31,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.667 -05:00 [WRN] CSV validation error {"Linea":31,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.668 -05:00 [WRN] CSV validation error {"Linea":32,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.670 -05:00 [WRN] CSV validation error {"Linea":32,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.690 -05:00 [WRN] CSV validation error {"Linea":32,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.690 -05:00 [WRN] CSV validation error {"Linea":32,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.691 -05:00 [WRN] CSV validation error {"Linea":33,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.692 -05:00 [WRN] CSV validation error {"Linea":33,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.692 -05:00 [WRN] CSV validation error {"Linea":33,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.694 -05:00 [WRN] CSV validation error {"Linea":33,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.694 -05:00 [WRN] CSV validation error {"Linea":34,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.694 -05:00 [WRN] CSV validation error {"Linea":34,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.695 -05:00 [WRN] CSV validation error {"Linea":34,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.695 -05:00 [WRN] CSV validation error {"Linea":34,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.697 -05:00 [WRN] CSV validation error {"Linea":35,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.697 -05:00 [WRN] CSV validation error {"Linea":35,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.698 -05:00 [WRN] CSV validation error {"Linea":35,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.700 -05:00 [WRN] CSV validation error {"Linea":35,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.703 -05:00 [WRN] CSV validation error {"Linea":36,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.705 -05:00 [WRN] CSV validation error {"Linea":36,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.705 -05:00 [WRN] CSV validation error {"Linea":36,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.713 -05:00 [WRN] CSV validation error {"Linea":36,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.713 -05:00 [WRN] CSV validation error {"Linea":37,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.714 -05:00 [WRN] CSV validation error {"Linea":37,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.715 -05:00 [WRN] CSV validation error {"Linea":37,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.715 -05:00 [WRN] CSV validation error {"Linea":37,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.715 -05:00 [WRN] CSV validation error {"Linea":38,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.716 -05:00 [WRN] CSV validation error {"Linea":38,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.716 -05:00 [WRN] CSV validation error {"Linea":38,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.717 -05:00 [WRN] CSV validation error {"Linea":38,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.718 -05:00 [WRN] CSV validation error {"Linea":39,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.718 -05:00 [WRN] CSV validation error {"Linea":39,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.718 -05:00 [WRN] CSV validation error {"Linea":39,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.719 -05:00 [WRN] CSV validation error {"Linea":39,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.720 -05:00 [WRN] CSV validation error {"Linea":40,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.720 -05:00 [WRN] CSV validation error {"Linea":40,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.721 -05:00 [WRN] CSV validation error {"Linea":40,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.722 -05:00 [WRN] CSV validation error {"Linea":40,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.723 -05:00 [WRN] CSV validation error {"Linea":41,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.724 -05:00 [WRN] CSV validation error {"Linea":41,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.724 -05:00 [WRN] CSV validation error {"Linea":41,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.727 -05:00 [WRN] CSV validation error {"Linea":42,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.728 -05:00 [WRN] CSV validation error {"Linea":42,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.730 -05:00 [WRN] CSV validation error {"Linea":42,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.731 -05:00 [WRN] CSV validation error {"Linea":42,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.731 -05:00 [WRN] CSV validation error {"Linea":43,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.732 -05:00 [WRN] CSV validation error {"Linea":43,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.732 -05:00 [WRN] CSV validation error {"Linea":43,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.733 -05:00 [WRN] CSV validation error {"Linea":43,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.733 -05:00 [WRN] CSV validation error {"Linea":44,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.734 -05:00 [WRN] CSV validation error {"Linea":44,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.734 -05:00 [WRN] CSV validation error {"Linea":44,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.735 -05:00 [WRN] CSV validation error {"Linea":44,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.735 -05:00 [WRN] CSV validation error {"Linea":45,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.735 -05:00 [WRN] CSV validation error {"Linea":45,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.736 -05:00 [WRN] CSV validation error {"Linea":45,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.738 -05:00 [WRN] CSV validation error {"Linea":45,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.739 -05:00 [WRN] CSV validation error {"Linea":46,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FCES","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.739 -05:00 [WRN] CSV validation error {"Linea":46,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.739 -05:00 [WRN] CSV validation error {"Linea":46,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.740 -05:00 [WRN] CSV validation error {"Linea":46,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.740 -05:00 [WRN] CSV validation error {"Linea":47,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.741 -05:00 [WRN] CSV validation error {"Linea":47,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.741 -05:00 [WRN] CSV validation error {"Linea":47,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.742 -05:00 [WRN] CSV validation error {"Linea":47,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.742 -05:00 [WRN] CSV validation error {"Linea":48,"Campo":"Producto","Mensaje":"Producto debe ser exactamente 'ACCAI'.","Valor":"FPOB","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.742 -05:00 [WRN] CSV validation error {"Linea":48,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.743 -05:00 [WRN] CSV validation error {"Linea":48,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.743 -05:00 [WRN] CSV validation error {"Linea":48,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.745 -05:00 [WRN] CSV validation error {"Linea":49,"Campo":"Nombres","Mensaje":"Nombres es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.746 -05:00 [WRN] CSV validation error {"Linea":49,"Campo":"TipoDocum","Mensaje":"TipoDocum es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.746 -05:00 [WRN] CSV validation error {"Linea":49,"Campo":"NroDocum","Mensaje":"NroDocum es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.746 -05:00 [WRN] CSV validation error {"Linea":49,"Campo":"Producto","Mensaje":"Producto es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.747 -05:00 [WRN] CSV validation error {"Linea":49,"Campo":"PlanProducto","Mensaje":"PlanProducto es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.749 -05:00 [WRN] CSV validation error {"Linea":49,"Campo":"Contrato","Mensaje":"Contrato es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.749 -05:00 [WRN] CSV validation error {"Linea":49,"Campo":"Empresa","Mensaje":"Empresa es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.750 -05:00 [WRN] CSV validation error {"Linea":49,"Campo":"Segmento","Mensaje":"Segmento es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.750 -05:00 [WRN] CSV validation error {"Linea":49,"Campo":"Ciudad","Mensaje":"Ciudad es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.751 -05:00 [WRN] CSV validation error {"Linea":49,"Campo":"IdAgte","Mensaje":"IdAgte es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.751 -05:00 [WRN] CSV validation error {"Linea":49,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.752 -05:00 [WRN] CSV validation error {"Linea":49,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.754 -05:00 [WRN] CSV validation error {"Linea":49,"Campo":"SubGrupoFp","Mensaje":"SubGrupoFp es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.756 -05:00 [WRN] CSV validation error {"Linea":49,"Campo":"descripcion","Mensaje":"descripcion es requerido.","Valor":"","$type":"RowError"} CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.757 -05:00 [INF] CSV validation FAILED: 204 errores en 48 filas. CorrelationId=a8a42c6788394635b68e3e341d922c8a
+2025-10-16 10:43:44.758 -05:00 [INF] Setting HTTP status code 400.
+2025-10-16 10:43:44.758 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-16 10:43:44.759 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-16 10:43:44.760 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 211.2748 ms
+2025-10-16 10:43:44.763 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/fp-changes/upload - 400 null application/json; charset=utf-8 220.1159ms
+2025-10-16 10:49:36.995 -05:00 [INF] Application is shutting down...
