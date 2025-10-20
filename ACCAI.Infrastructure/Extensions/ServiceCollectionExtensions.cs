@@ -5,6 +5,9 @@ using ACCAI.Domain.Ports;
 using ACCAI.Infrastructure.Adapters;
 using ACCAI.Application.FpChanges;
 using ACCAI.Infrastructure.Parsers;
+using ACCAI.Domain.Ports.ExternalServices;
+using ACCAI.Infrastructure.Adapters.ExternalServices;
+using Microsoft.Extensions.Configuration;
 namespace ACCAI.Infrastructure.Extensions;
 public static class ServiceCollectionExtensions
 {
@@ -25,7 +28,25 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         return services;
     }
-    
+
+    public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
+    {
+        services.AddHttpClient<AccaiChangeFpService>(client =>
+        {
+            client.BaseAddress = new Uri(configuration["ExternalApis:Accai"]);
+            client.DefaultRequestHeaders.Add("Accept", "application/json");
+        });
+
+        services.AddHttpClient<CreaChangeFpService>(client =>
+        {
+            client.BaseAddress = new Uri(configuration["ExternalApis:Crea"]);
+        });
+
+        services.AddScoped<IChangeFpFactory, ChangeFpFactory>();
+
+        return services;
+    }
+
     public static IServiceCollection AddInfrastructure(this IServiceCollection services)
     {
         services.AddScoped<IFpChangeCsvParser, FpChangeCsvParser>();

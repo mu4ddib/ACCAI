@@ -29,6 +29,7 @@ builder.Services.AddHealthChecks().AddDbContextCheck<DataContext>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAttributedServices(typeof(RecordVoterService).Assembly, typeof(DataContext).Assembly);
+builder.Services.AddInfrastructureServices(cfg);
 builder.Services.AddInfrastructure();
 var app = builder.Build();
 //if (app.Environment.IsDevelopment()){ app.UseSwagger(); app.UseSwaggerUI(); }
