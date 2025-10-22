@@ -3,5 +3,7 @@ using MediatR;
 
 namespace ACCAI.Application.FpChanges;
 
-public sealed record ValidateFpChangesCsvCommand(Stream FileStream, long FileLength)
+public sealed record ValidateFpChangesCsvCommand(Stream FileStream,
+    long FileLength,
+    string FileName)
     : IRequest<ValidationResponseDto>;

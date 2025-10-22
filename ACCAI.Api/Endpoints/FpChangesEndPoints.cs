@@ -24,13 +24,18 @@ public static class FpChangesEndpoints
                 CancellationToken ct
             ) =>
             {
+                if (file is null || file.Length == 0)
+                {
+                    var cid = Guid.NewGuid().ToString("N");
+                    return Results.BadRequest(ValidationResponseDto.Fail("Archivo vacío.", cid));
+                }
                 
                 using var ms = new MemoryStream();
                 await file.CopyToAsync(ms, ct);
                 ms.Position = 0;
 
                 var res = await mediator.Send(
-                    new ValidateFpChangesCsvCommand(ms, file.Length), ct);
+                    new ValidateFpChangesCsvCommand(ms, file.Length, file.FileName), ct);
 
                 return res.Errores == 0 ? Results.Ok(res) : Results.BadRequest(res);
             })

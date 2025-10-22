@@ -1,4 +1,6 @@
 using System.Collections.Concurrent;
+using System.IO;
+using ACCAI.Application.Common;
 using ACCAI.Application.Dtos;
 using ACCAI.Domain.Ports;
 using ACCAI.Domain.Ports.ExternalServices;
@@ -6,7 +8,6 @@ using ACCAI.Domain.ReadModels;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Logging;
-using ACCAI.Application.Common;
 
 namespace ACCAI.Application.FpChanges;
 
@@ -18,6 +19,19 @@ public sealed class ValidateFpChangesCsvCommandHandler
     private readonly IValidator<FpChangeCsvRow> _rowValidator;
     private readonly ILogger<ValidateFpChangesCsvCommandHandler> _logger;
     private readonly IContractsRepository _contractsRepository;
+    
+    private const string V001_ExtensionCsv = "V001_EXTENSION_CSV";
+    private const string V002_FileSize     = "V002_FILE_SIZE";
+    private const string V003_Headers      = "V003_HEADERS";
+    private const string V004_MaxRows      = "V004_MAX_ROWS";
+    private const string V005_RowRules     = "V005_ROW_VALIDATIONS";
+    
+    private static readonly HashSet<string> AllowedProducts =
+        new(StringComparer.OrdinalIgnoreCase) { "ACCAI" };
+
+    private static bool IsAllowedProduct(string? p) =>
+        !string.IsNullOrWhiteSpace(p) && AllowedProducts.Contains(p);
+
 
     private static readonly string[] ExpectedHeaders =
     [
@@ -44,66 +58,137 @@ public sealed class ValidateFpChangesCsvCommandHandler
         var correlationId = Guid.NewGuid().ToString("N");
         var errors = new List<RowError>();
 
-        if (!ValidateFile(request, out var validationError))
+        _logger.LogInformation("Start CSV validation CorrelationId={CorrelationId} FileName={FileName} Length={Length}",
+            correlationId, request.FileName, request.FileLength);
+
+        if (!ValidateFile(request, correlationId, out var validationError))
             return ValidationResponseDto.Fail(validationError!, correlationId);
 
         var parsed = await _parser.ParseAsync(request.FileStream, ct);
+        _logger.LogInformation("Parsed CSV CorrelationId={CorrelationId} HeaderCount={HeaderCount} Rows={Rows}",
+            correlationId, parsed.Header.Count, parsed.Rows.Count);
 
-        if (!ValidateHeader(parsed.Header, out var headerError))
+        if (!ValidateHeader(parsed.Header, correlationId, out var headerError))
             return ValidationResponseDto.Fail(headerError!, correlationId);
 
         if (parsed.Rows.Count > 50)
+        {
+            _logger.LogWarning("[{Code}] Max rows exceeded CorrelationId={CorrelationId} Max=50 Received={Rows}",
+                V004_MaxRows, correlationId, parsed.Rows.Count);
             return ValidationResponseDto.Fail("Máximo 50 registros por archivo.", correlationId);
+        }
+        _logger.LogInformation("[{Code}] Max rows check passed CorrelationId={CorrelationId} Rows={Rows}",
+            V004_MaxRows, correlationId, parsed.Rows.Count);
 
         await ValidateRowsAsync(parsed.Rows, errors, correlationId, ct);
 
-        var rowIndexMap = parsed.Rows                
-            .Select((r, i) => new { r, line = i + 2 })   
+        var rowIndexMap = parsed.Rows
+            .Select((r, i) => new { r, line = i + 2 })
             .ToDictionary(x => x.r, x => x.line);
         
-        await ProcessFpChangesAsync(parsed.Rows, rowIndexMap, errors, correlationId, ct);
+        var toProcess = new List<FpChangeCsvRow>();
+        var skippedCount = 0;
 
-        return ValidationResponseDto.From(parsed.Rows.Count, errors, correlationId);
+        foreach (var row in parsed.Rows)
+        {
+            if (IsAllowedProduct(row.Producto))
+            {
+                toProcess.Add(row);
+            }
+            else
+            {
+                skippedCount++;
+                _logger.LogWarning(
+                    "Row skipped by product filter. Line={Line} Product={Product} Contract={Contract} CorrelationId={CorrelationId}",
+                    rowIndexMap[row], row.Producto, row.Contrato, correlationId);
+            }
+        }
+        
+        _logger.LogInformation(
+            "Product filter summary. Allowed={Allowed} Skipped={Skipped} AllowedProducts={AllowedList} CorrelationId={CorrelationId}",
+            toProcess.Count, skippedCount, string.Join(",", AllowedProducts), correlationId);
+
+        await ProcessFpChangesAsync(toProcess, rowIndexMap, errors, correlationId, ct);
+        
+        var result = ValidationResponseDto.From(parsed.Rows.Count, errors, correlationId);
+
+        _logger.LogInformation("End CSV validation CorrelationId={CorrelationId} TotalRows={Total} Errors={Errors}",
+            correlationId, result.TotalFilas, result.Errores);
+
+        return result;
     }
+    
 
     /// <summary>
-    /// Validates the uploaded file for length constraints.
+    /// Valida extensión .csv (no .csv.xlsx) y tamaño (<= 1MB), logueando cada paso.
     /// </summary>
-    /// <param name="request"></param>
-    /// <param name="message"></param>
-    /// <returns></returns>
-    private static bool ValidateFile(ValidateFpChangesCsvCommand request, out string? message)
+    private bool ValidateFile(ValidateFpChangesCsvCommand request, string correlationId, out string? message)
     {
         message = null;
-        if (request.FileLength <= 0)
+        
+        var ext = Path.GetExtension(request.FileName ?? string.Empty);
+        var isCsv = string.Equals(ext, ".csv", StringComparison.OrdinalIgnoreCase);
+        if (!isCsv)
         {
-            message = "Archivo vacío.";
+            _logger.LogWarning("[{Code}] Extension check failed CorrelationId={CorrelationId} FileName={FileName} Extension={Extension}",
+                V001_ExtensionCsv, correlationId, request.FileName, ext);
+            message = "El archivo debe tener extensión .csv.";
             return false;
         }
-
-        if (request.FileLength > 1_000_000)
+        _logger.LogInformation("[{Code}] Extension check passed CorrelationId={CorrelationId} FileName={FileName}",
+            V001_ExtensionCsv, correlationId, request.FileName);
+        
+        switch (request.FileLength)
         {
-            message = "Tamaño máximo permitido: 1MB.";
-            return false;
-        }
+            case <= 0:
+                _logger.LogWarning("[{Code}] File empty CorrelationId={CorrelationId}", V002_FileSize, correlationId);
+                message = "Archivo vacío.";
+                return false;
+            case > 1_000_000:
+                _logger.LogWarning("[{Code}] File too large CorrelationId={CorrelationId} Max=1000000 Length={Length}",
+                    V002_FileSize, correlationId, request.FileLength);
+                message = "Tamaño máximo permitido: 1MB.";
+                return false;
+            default:
+                _logger.LogInformation("[{Code}] File size check passed CorrelationId={CorrelationId} Length={Length}",
+                    V002_FileSize, correlationId, request.FileLength);
 
-        return true;
+                return true;
+        }
     }
 
-    private static bool ValidateHeader(IReadOnlyList<string> header, out string? message)
+    private bool ValidateHeader(IReadOnlyList<string> header, string correlationId, out string? message)
     {
         message = null;
+
         if (header.Count != ExpectedHeaders.Length || !header.SequenceEqual(ExpectedHeaders))
         {
+            _logger.LogWarning(
+                "[{Code}] Header check failed CorrelationId={CorrelationId} ExpectedCount={ExpectedCount} ActualCount={ActualCount}",
+                V003_Headers, correlationId, ExpectedHeaders.Length, header.Count);
+            
+            _logger.LogWarning("[{Code}] Expected={Expected} Received={Received} CorrelationId={CorrelationId}",
+                V003_Headers,
+                string.Join(",", ExpectedHeaders),
+                string.Join(",", header),
+                correlationId);
+
             message = $"Cabeceras inválidas. Esperado: {string.Join(",", ExpectedHeaders)}. Recibido: {string.Join(",", header)}";
             return false;
         }
+
+        _logger.LogInformation("[{Code}] Header check passed CorrelationId={CorrelationId}", V003_Headers, correlationId);
         return true;
     }
+    
 
     private async Task ValidateRowsAsync(IEnumerable<FpChangeCsvRow> rows, List<RowError> errors, string correlationId, CancellationToken ct)
     {
-        var index = 2; 
+        var total = rows.Count();
+        _logger.LogInformation("[{Code}] Row validations start CorrelationId={CorrelationId} Total={Total}",
+            V005_RowRules, correlationId, total);
+
+        var index = 2; // primera fila de datos
         foreach (var row in rows)
         {
             var result = await _rowValidator.ValidateAsync(row, ct);
@@ -118,97 +203,88 @@ public sealed class ValidateFpChangesCsvCommandHandler
             }
             index++;
         }
+
+        _logger.LogInformation("[{Code}] Row validations end CorrelationId={CorrelationId} Errors={Errors}",
+            V005_RowRules, correlationId, errors.Count);
     }
-    /// <summary>
-    /// Processes the valid rows by grouping them by product and sending changes to external services.
-    /// </summary>
-    /// <param name="rows"></param>
-    /// <param name="errors"></param>
-    /// <param name="correlationId"></param>
-    /// <param name="ct"></param>
-    /// <returns></returns>
+    
 
     private async Task ProcessFpChangesAsync(
         IEnumerable<FpChangeCsvRow> rows,
-        IReadOnlyDictionary<FpChangeCsvRow,int> rowIndexMap,  // ← NUEVO
+        IReadOnlyDictionary<FpChangeCsvRow,int> rowIndexMap,
         List<RowError> errors,
         string correlationId,
         CancellationToken ct)
     {
+        rows = rows.Where(r => IsAllowedProduct(r.Producto));
+
         var grouped = rows.GroupBy(r => r.Producto);
         var tasks = grouped.Select(g => HandleProductGroupAsync(g.Key, g, rowIndexMap, errors, correlationId, ct));
         await Task.WhenAll(tasks);
     }
 
+
     private async Task HandleProductGroupAsync(
-    string product,
-    IEnumerable<FpChangeCsvRow> group,
-    IReadOnlyDictionary<FpChangeCsvRow,int> rowIndexMap,  // ← NUEVO
-    List<RowError> errors,
-    string correlationId,
-    CancellationToken ct)
-{
-    try
+        string product,
+        IEnumerable<FpChangeCsvRow> group,
+        IReadOnlyDictionary<FpChangeCsvRow,int> rowIndexMap,
+        List<RowError> errors,
+        string correlationId,
+        CancellationToken ct)
     {
-        var service = _factory.GetService(product);
-        var changes = new ConcurrentBag<ChangeFpItem>();
-
-        var tasks = group.Select(async row =>
+        try
         {
-            try
-            {
-                var change = MapToChange(row);
+            var service = _factory.GetService(product);
+            var changes = new ConcurrentBag<ChangeFpItem>();
 
-                // El servicio ahora LANZA excepciones canónicas si hay error
-                await service.SendChangeAsync(change);
-
-                changes.Add(change);
-            }
-            catch (Exception ex)
+            var tasks = group.Select(async row =>
             {
-                // Mapeo compacto: code + message
-                var apiErr = ex.ToApiError(target: $"external:{product.ToLower()}");
-                AddError(errors, rowIndexMap[row], nameof(row.Producto),
-                         $"{apiErr.Code}: {apiErr.Message}", row.Contrato, correlationId);
-            }
-        });
-
-        await Task.WhenAll(tasks);
-
-        if (changes.Any())
-        {
-            try
-            {
-                // Asegúrate del nombre correcto del método en tu repo:
-                var affected = await _contractsRepository.UpdateContractsAgentAsync(changes.ToList(), ct);
-                _logger.LogInformation("Product {Product}: {Count} contracts updated in DB. CorrelationId={CorrelationId}",
-                    product, affected, correlationId);
-            }
-            catch (Exception ex)
-            {
-                var apiErr = ex.ToApiError(target: "db:contratos");
-                foreach (var row in group) // puedes optar por 1 solo error general si prefieres
-                    AddError(errors, rowIndexMap[row], "_db",
+                try
+                {
+                    var change = MapToChange(row);
+                    await service.SendChangeAsync(change); 
+                    changes.Add(change);
+                }
+                catch (Exception ex)
+                {
+                    var apiErr = ex.ToApiError(target: $"external:{product.ToLower()}");
+                    AddError(errors, rowIndexMap[row], nameof(row.Producto),
                              $"{apiErr.Code}: {apiErr.Message}", row.Contrato, correlationId);
+                }
+            });
+
+            await Task.WhenAll(tasks);
+
+            if (changes.Any())
+            {
+                try
+                {
+                    var affected = await _contractsRepository.UpdateContractsAgentAsync(changes.ToList(), ct);
+                    _logger.LogInformation("Product {Product}: {Count} contracts updated in DB. CorrelationId={CorrelationId}",
+                        product, affected, correlationId);
+                }
+                catch (Exception ex)
+                {
+                    var apiErr = ex.ToApiError(target: "db:contratos");
+                    foreach (var row in group)
+                        AddError(errors, rowIndexMap[row], "_db",
+                                 $"{apiErr.Code}: {apiErr.Message}", row.Contrato, correlationId);
+                }
             }
         }
+        catch (Exception ex)
+        {
+            var apiErr = ex.ToApiError(
+                target: $"external:{product.ToLower()}",
+                codeOverride: "external.service_resolution",
+                messageOverride: $"No se pudo resolver el servicio {product}");
+
+            foreach (var row in group)
+                AddError(errors, rowIndexMap[row], nameof(row.Producto),
+                         $"{apiErr.Code}: {apiErr.Message}", row.Contrato, correlationId);
+        }
     }
-    catch (Exception ex) // error resolviendo el servicio del producto
-    {
-        var apiErr = ex.ToApiError(target: $"external:{product.ToLower()}",
-                                   codeOverride: "external.service_resolution",
-                                   messageOverride: $"No se pudo resolver el servicio {product}");
-        foreach (var row in group)
-            AddError(errors, rowIndexMap[row], nameof(row.Producto),
-                     $"{apiErr.Code}: {apiErr.Message}", row.Contrato, correlationId);
-    }
-}
     
-    /// <summary>
-    /// Maps a CSV row to a ChangeFpItem
-    /// </summary>
-    /// <param name="row"></param>
-    /// <returns></returns>
 
     private static ChangeFpItem MapToChange(FpChangeCsvRow row) => new()
     {
