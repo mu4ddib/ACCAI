@@ -5,6 +5,8 @@ using ACCAI.Domain.ReadModels;
 using ACCAI.Infrastructure.DataSource;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using ACCAI.Application.Common;
+using Microsoft.Data.SqlClient;
 
 namespace ACCAI.Infrastructure.Adapters;
 [Repository]
@@ -16,36 +18,47 @@ public class ContractsRepository : GenericRepository<Voter>, IContractsRepositor
         _logger = logger;
     }
 
-    public async Task<int> UpdateContractsAgentAsyncUpdateContractsAgentsAsync(IEnumerable<ChangeFpItem> changes, CancellationToken ct = default)
+    public async Task<int> UpdateContractsAgentAsync(IEnumerable<ChangeFpItem> changes, CancellationToken ct = default)
     {
-        var contractNumbers = changes.Select(c => c.Contract).ToList();
-        var contracts = await _ctx.Contracts
-            .Where(c => contractNumbers.Contains(c.NumeroContrato))
-            .ToListAsync(ct);
 
-        if (contracts.Count == 0)
+        try
         {
-            _logger.LogWarning("No contracts found matching the provided list.");
-            return 0;
-        }
+            var contractNumbers = changes.Select(c => c.Contract).ToList();
+            var contracts = await _ctx.Contracts
+                .Where(c => contractNumbers.Contains(c.NumeroContrato))
+                .ToListAsync(ct);
 
-        foreach (var contract in contracts)
-        {
-            var change = changes.FirstOrDefault(c =>
-                c.Contract == contract.NumeroContrato &&
-                c.PreviousAgentId == contract.IdAgte);
-
-            if (change != null)
+            if (contracts.Count == 0)
             {
-                contract.IdAgte = change.NewAgentId;
+                _logger.LogWarning("No contracts found matching the provided list.");
+                return 0;
             }
+
+            foreach (var contract in contracts)
+            {
+                var change = changes.FirstOrDefault(c =>
+                    c.Contract == contract.NumeroContrato &&
+                    c.PreviousAgentId == contract.IdAgte);
+
+                if (change != null)
+                {
+                    contract.IdAgte = change.NewAgentId;
+                }
+            }
+
+            var affected = await _ctx.SaveChangesAsync(ct);
+            _logger.LogInformation("Updated {Count} contracts successfully.", affected);
+
+            return affected;
+        
         }
-
-        var affected = await _ctx.SaveChangesAsync(ct);
-        _logger.LogInformation("Updated {Count} contracts successfully.", affected);
-
-        return affected;
+        catch (SqlException ex) when (ex.Number == -2) 
+            {
+                throw new RepositoryException("db.timeout", "Timeout al actualizar contratos.", "db:contratos", ex);
+            }
+        catch (Exception ex)
+            {
+                throw new RepositoryException("db.update_failed", "No se pudieron actualizar los contratos.", "db:contratos", ex);
+            }
     }
-
-
 }

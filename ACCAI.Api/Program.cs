@@ -18,10 +18,19 @@ Log.Logger = new LoggerConfiguration()
     .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 builder.Host.UseSerilog();
 
 var cfg = builder.Configuration;
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder => builder.AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+});
+
 builder.Services.AddDbContext<DataContext>(opt => opt.UseSqlServer(cfg.GetConnectionString("db")));
 builder.Services.AddMediatR(cfgr => cfgr.RegisterServicesFromAssembly(typeof(ApplicationAssembly).Assembly));
 builder.Services.AddValidatorsFromAssembly(typeof(ApplicationAssembly).Assembly);
@@ -41,6 +50,7 @@ app.UseSerilogRequestLogging();
 app.UseMiddleware<ACCAI.Api.Middleware.ExceptionMiddleware>();
 ACCAI.Api.Endpoints.VoterEndpoints.Map(app);
 ACCAI.Api.Endpoints.FpChangesEndpoints.Map(app);
+app.UseCors("AllowAllOrigins");
 app.MapHealthChecks("/health");
 app.MapMetrics();
 app.Run();

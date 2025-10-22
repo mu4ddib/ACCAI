@@ -4,5 +4,5 @@ namespace ACCAI.Domain.Ports;
 
 public interface IContractsRepository
 {
-    Task<int> UpdateContractsAgentAsyncUpdateContractsAgentsAsync(IEnumerable<ChangeFpItem> changes, CancellationToken ct = default);
+    Task<int> UpdateContractsAgentAsync(IEnumerable<ChangeFpItem> changes, CancellationToken ct = default);
 }

@@ -2,6 +2,7 @@
 using ACCAI.Domain.ReadModels;
 using Microsoft.Extensions.Logging;
 using System.Net.Http.Json;
+using ACCAI.Application.Common;
 
 namespace ACCAI.Infrastructure.Adapters.ExternalServices;
 
@@ -27,23 +28,33 @@ public class AccaiChangeFpService : IChangeFpService
             if (!response.IsSuccessStatusCode)
             {
                 var body = await response.Content.ReadAsStringAsync();
-                _logger.LogError("Failed to send ChangeFp. Status: {StatusCode}. Response: {Body}",
-                    response.StatusCode, body);
-                return false;
+                _logger.LogError("ChangeFp non-success. Status: {StatusCode}. Body: {Body}", response.StatusCode, body);
+
+                throw new ExternalServiceException(
+                    code: "http.non_success",
+                    message: $"HTTP {(int)response.StatusCode} al llamar a ACCAI.",
+                    target: "external:accai",
+                    statusCode: (int)response.StatusCode
+                );
             }
 
             _logger.LogInformation("ChangeFp request sent successfully");
             return true;
         }
+        catch (TaskCanceledException ex)
+        {
+            _logger.LogError(ex, "Timeout sending ChangeFp.");
+            throw new ExternalServiceException("http.timeout", "Timeout al llamar a ACCAI.", "external:accai", inner: ex);
+        }
         catch (HttpRequestException ex)
         {
-            _logger.LogError(ex, "Network error while sending ChangeFp request.");
-            return false;
+            _logger.LogError(ex, "Network error while sending ChangeFp.");
+            throw new ExternalServiceException("http.network", "Error de red al llamar a ACCAI.", "external:accai", inner: ex);
         }
         catch (Exception ex)
         {
             _logger.LogError(ex, "Unexpected error in SendChangeAsync");
-            return false;
+            throw new ExternalServiceException("external.error", "Error inesperado llamando a ACCAI.", "external:accai", inner: ex);
         }
     }
 }

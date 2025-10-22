@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ACCAI.Infrastructure.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20251020162006_InitialCreate")]
+    [Migration("20251020182121_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

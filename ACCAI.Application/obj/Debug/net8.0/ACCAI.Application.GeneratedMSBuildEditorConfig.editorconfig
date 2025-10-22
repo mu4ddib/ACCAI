@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ACCAI.Application
-build_property.ProjectDir = /Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Application/
+build_property.ProjectDir = /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Application/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

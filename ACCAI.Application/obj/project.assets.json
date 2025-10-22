@@ -313,11 +313,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Application/ACCAI.Application.csproj",
+      "projectUniqueName": "/Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Application/ACCAI.Application.csproj",
       "projectName": "ACCAI.Application",
-      "projectPath": "/Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Application/ACCAI.Application.csproj",
+      "projectPath": "/Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Application/ACCAI.Application.csproj",
       "packagesPath": "/Users/jamesvanstrahlen/.nuget/packages/",
-      "outputPath": "/Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Application/obj/",
+      "outputPath": "/Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jamesvanstrahlen/.nuget/NuGet/NuGet.Config"
@@ -332,8 +332,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Domain/ACCAI.Domain.csproj": {
-              "projectPath": "/Users/jamesvanstrahlen/Downloads/ACCAI/ACCAI.Domain/ACCAI.Domain.csproj"
+            "/Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Domain/ACCAI.Domain.csproj": {
+              "projectPath": "/Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Domain/ACCAI.Domain.csproj"
             }
           }
         }

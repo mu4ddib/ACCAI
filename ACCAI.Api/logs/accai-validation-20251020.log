@@ -208,3 +208,758 @@ System.InvalidOperationException: No ChangeFpService registered for product 'FCE
 2025-10-20 11:30:20.101 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"158376","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
 2025-10-20 11:30:20.104 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"157886","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
 2025-10-20 11:30:20.107 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"157886","$type":"RowError"} CorrelationId=c3d7da30a1d34ac49546e384d7a7c037
+2025-10-20 13:00:47.424 -05:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-10-20 13:00:47.454 -05:00 [INF] Now listening on: https://localhost:63730
+2025-10-20 13:00:47.454 -05:00 [INF] Now listening on: http://localhost:63731
+2025-10-20 13:00:47.456 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 13:00:47.456 -05:00 [INF] Hosting environment: Development
+2025-10-20 13:00:47.456 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Api
+2025-10-20 13:14:01.941 -05:00 [INF] Application is shutting down...
+2025-10-20 13:18:53.191 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:18:53.237 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:18:53.237 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:18:53.237 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:18:53.238 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:18:53.238 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:18:53.298 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:18:53.298 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:18:53.298 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:18:53.298 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:18:53.298 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:18:53.298 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:20:50.014 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:20:50.060 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:20:50.060 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:20:50.060 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:20:50.060 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:20:50.060 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:20:50.344 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:20:50.344 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:20:50.344 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:20:50.344 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:20:50.344 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:20:50.344 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:20:50.695 -05:00 [INF] Executed DbCommand (313ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [sigscg];
+2025-10-20 13:20:50.879 -05:00 [INF] Executed DbCommand (182ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [sigscg] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-10-20 13:20:50.907 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-10-20 13:20:50.955 -05:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2025-10-20 13:20:50.957 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-10-20 13:20:50.970 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-10-20 13:20:51.027 -05:00 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-10-20 13:20:51.035 -05:00 [INF] No migrations were applied. The database is already up to date.
+2025-10-20 13:21:06.246 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:06.290 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:06.291 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:06.291 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:06.291 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:06.291 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:06.345 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:06.345 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:06.345 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:06.345 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:06.345 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:06.345 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:06.722 -05:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-10-20 13:21:06.739 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-10-20 13:21:06.775 -05:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-10-20 13:21:21.493 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:21.537 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:21.537 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:21.537 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:21.537 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:21.537 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:21.591 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:21.591 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:21.591 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:21.591 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:21.591 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:21.591 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:34.545 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:34.590 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:34.590 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:34.590 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:34.590 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:34.590 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:21:34.802 -05:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-10-20 13:21:34.816 -05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-10-20 13:21:34.829 -05:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-10-20 13:21:34.831 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-10-20 13:21:34.845 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-10-20 13:21:34.852 -05:00 [INF] Applying migration '20251020182121_InitialCreate'.
+2025-10-20 13:21:34.913 -05:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Contrato] (
+    [Id] int NOT NULL IDENTITY,
+    [Producto] nvarchar(max) NOT NULL,
+    [NumeroContrato] int NOT NULL,
+    [PlanProducto] nvarchar(max) NOT NULL,
+    [NroDocum] nvarchar(max) NOT NULL,
+    [TipoDocum] nvarchar(max) NOT NULL,
+    [PclidAfi] int NOT NULL,
+    [FecInicio] datetime2 NULL,
+    [FecEfectiva] datetime2 NULL,
+    [FecTerminacion] datetime2 NULL,
+    [Saldo] decimal(18,2) NULL,
+    [SaldoUn] decimal(18,2) NULL,
+    [FecSaldo] datetime2 NULL,
+    [ValorAporteMes] decimal(18,2) NULL,
+    [FecUltimoAporte] datetime2 NULL,
+    [EstadoContrato] nvarchar(max) NOT NULL,
+    [IdAgte] int NOT NULL,
+    [SaldoCapital] decimal(18,2) NULL,
+    [SaldoRendimientos] decimal(18,2) NULL,
+    [Cuenta] decimal(18,2) NULL,
+    CONSTRAINT [PK_Contrato] PRIMARY KEY ([Id])
+);
+2025-10-20 13:21:34.922 -05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Voters] (
+    [Id] uniqueidentifier NOT NULL,
+    [Nid] nvarchar(50) NOT NULL,
+    [DateOfBirth] datetime2 NOT NULL,
+    [Origin] nvarchar(80) NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [LastModifiedOn] datetime2 NOT NULL,
+    CONSTRAINT [PK_Voters] PRIMARY KEY ([Id])
+);
+2025-10-20 13:21:34.935 -05:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Voters_Nid] ON [Voters] ([Nid]);
+2025-10-20 13:21:34.959 -05:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20251020182121_InitialCreate', N'8.0.8');
+2025-10-20 13:22:29.927 -05:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-10-20 13:22:29.960 -05:00 [INF] Now listening on: https://localhost:63730
+2025-10-20 13:22:29.961 -05:00 [INF] Now listening on: http://localhost:63731
+2025-10-20 13:22:29.962 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 13:22:29.962 -05:00 [INF] Hosting environment: Development
+2025-10-20 13:22:29.962 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Api
+2025-10-20 13:38:24.923 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:63730/api/fp-changes/upload - multipart/form-data; boundary=--------------------------599352335613490094367454 8572
+2025-10-20 13:38:25.041 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-20 13:38:25.347 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:38:25.347 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:38:25.347 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:38:25.347 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:38:25.347 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:38:25.348 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 13:38:25.418 -05:00 [WRN] Validation error {"Linea":2,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.420 -05:00 [WRN] Validation error {"Linea":2,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.420 -05:00 [WRN] Validation error {"Linea":3,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.420 -05:00 [WRN] Validation error {"Linea":3,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.420 -05:00 [WRN] Validation error {"Linea":4,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.420 -05:00 [WRN] Validation error {"Linea":4,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.420 -05:00 [WRN] Validation error {"Linea":5,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.420 -05:00 [WRN] Validation error {"Linea":5,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.421 -05:00 [WRN] Validation error {"Linea":6,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.421 -05:00 [WRN] Validation error {"Linea":6,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.421 -05:00 [WRN] Validation error {"Linea":7,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.421 -05:00 [WRN] Validation error {"Linea":7,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.421 -05:00 [WRN] Validation error {"Linea":8,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.421 -05:00 [WRN] Validation error {"Linea":8,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.421 -05:00 [WRN] Validation error {"Linea":9,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.421 -05:00 [WRN] Validation error {"Linea":9,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.422 -05:00 [WRN] Validation error {"Linea":10,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.422 -05:00 [WRN] Validation error {"Linea":10,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.422 -05:00 [WRN] Validation error {"Linea":11,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.422 -05:00 [WRN] Validation error {"Linea":11,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.422 -05:00 [WRN] Validation error {"Linea":12,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.423 -05:00 [WRN] Validation error {"Linea":12,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.423 -05:00 [WRN] Validation error {"Linea":13,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.424 -05:00 [WRN] Validation error {"Linea":13,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.424 -05:00 [WRN] Validation error {"Linea":14,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.424 -05:00 [WRN] Validation error {"Linea":14,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.424 -05:00 [WRN] Validation error {"Linea":15,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.424 -05:00 [WRN] Validation error {"Linea":15,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.425 -05:00 [WRN] Validation error {"Linea":16,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.425 -05:00 [WRN] Validation error {"Linea":16,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.425 -05:00 [WRN] Validation error {"Linea":17,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.425 -05:00 [WRN] Validation error {"Linea":17,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.425 -05:00 [WRN] Validation error {"Linea":18,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.425 -05:00 [WRN] Validation error {"Linea":18,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.426 -05:00 [WRN] Validation error {"Linea":19,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.426 -05:00 [WRN] Validation error {"Linea":19,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.426 -05:00 [WRN] Validation error {"Linea":20,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.426 -05:00 [WRN] Validation error {"Linea":20,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.426 -05:00 [WRN] Validation error {"Linea":21,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.426 -05:00 [WRN] Validation error {"Linea":21,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.426 -05:00 [WRN] Validation error {"Linea":22,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.427 -05:00 [WRN] Validation error {"Linea":22,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.427 -05:00 [WRN] Validation error {"Linea":23,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.427 -05:00 [WRN] Validation error {"Linea":23,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.427 -05:00 [WRN] Validation error {"Linea":24,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.427 -05:00 [WRN] Validation error {"Linea":24,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.427 -05:00 [WRN] Validation error {"Linea":25,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.428 -05:00 [WRN] Validation error {"Linea":25,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.428 -05:00 [WRN] Validation error {"Linea":26,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.428 -05:00 [WRN] Validation error {"Linea":26,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.428 -05:00 [WRN] Validation error {"Linea":27,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.429 -05:00 [WRN] Validation error {"Linea":27,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.429 -05:00 [WRN] Validation error {"Linea":28,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.429 -05:00 [WRN] Validation error {"Linea":28,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.429 -05:00 [WRN] Validation error {"Linea":29,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.429 -05:00 [WRN] Validation error {"Linea":29,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.429 -05:00 [WRN] Validation error {"Linea":30,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.430 -05:00 [WRN] Validation error {"Linea":30,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.430 -05:00 [WRN] Validation error {"Linea":31,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.430 -05:00 [WRN] Validation error {"Linea":31,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.430 -05:00 [WRN] Validation error {"Linea":32,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.430 -05:00 [WRN] Validation error {"Linea":32,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.430 -05:00 [WRN] Validation error {"Linea":33,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.431 -05:00 [WRN] Validation error {"Linea":33,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.431 -05:00 [WRN] Validation error {"Linea":34,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.431 -05:00 [WRN] Validation error {"Linea":34,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.431 -05:00 [WRN] Validation error {"Linea":35,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.431 -05:00 [WRN] Validation error {"Linea":35,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.431 -05:00 [WRN] Validation error {"Linea":36,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.431 -05:00 [WRN] Validation error {"Linea":36,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.432 -05:00 [WRN] Validation error {"Linea":37,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.432 -05:00 [WRN] Validation error {"Linea":37,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.432 -05:00 [WRN] Validation error {"Linea":38,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.432 -05:00 [WRN] Validation error {"Linea":38,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.432 -05:00 [WRN] Validation error {"Linea":39,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.432 -05:00 [WRN] Validation error {"Linea":39,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.433 -05:00 [WRN] Validation error {"Linea":40,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.433 -05:00 [WRN] Validation error {"Linea":40,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.433 -05:00 [WRN] Validation error {"Linea":41,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.434 -05:00 [WRN] Validation error {"Linea":41,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.434 -05:00 [WRN] Validation error {"Linea":42,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.435 -05:00 [WRN] Validation error {"Linea":42,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.436 -05:00 [WRN] Validation error {"Linea":43,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.436 -05:00 [WRN] Validation error {"Linea":43,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.436 -05:00 [WRN] Validation error {"Linea":44,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.437 -05:00 [WRN] Validation error {"Linea":44,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.437 -05:00 [WRN] Validation error {"Linea":45,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.437 -05:00 [WRN] Validation error {"Linea":45,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.437 -05:00 [WRN] Validation error {"Linea":46,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.437 -05:00 [WRN] Validation error {"Linea":46,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.437 -05:00 [WRN] Validation error {"Linea":47,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.437 -05:00 [WRN] Validation error {"Linea":47,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.438 -05:00 [WRN] Validation error {"Linea":48,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.438 -05:00 [WRN] Validation error {"Linea":48,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.438 -05:00 [WRN] Validation error {"Linea":49,"Campo":"TipoDocum","Mensaje":"Actualmente solo se admite TipoDocum = 'C'.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.438 -05:00 [WRN] Validation error {"Linea":49,"Campo":"NroDocum","Mensaje":"NroDocum debe ser numérico.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.438 -05:00 [WRN] Validation error {"Linea":49,"Campo":"Producto","Mensaje":"Producto es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.439 -05:00 [WRN] Validation error {"Linea":49,"Campo":"PlanProducto","Mensaje":"PlanProducto es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.439 -05:00 [WRN] Validation error {"Linea":49,"Campo":"Contrato","Mensaje":"Contrato es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.439 -05:00 [WRN] Validation error {"Linea":49,"Campo":"IdAgte","Mensaje":"IdAgte es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.440 -05:00 [WRN] Validation error {"Linea":49,"Campo":"IdAgteNuevo","Mensaje":"IdAgteNuevo es requerido.","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.440 -05:00 [WRN] Validation error {"Linea":49,"Campo":"NombreAgteNuevo","Mensaje":"NombreAgteNuevo es requerido.","Valor":null,"$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.440 -05:00 [WRN] CSV validation failed with 102 errors. CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.454 -05:00 [INF] Sending CREA ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":0,"Product":"CREA","ProductPlan":"01","Contract":51849,"$type":"ChangeFpItem"}
+2025-10-20 13:38:25.459 -05:00 [INF] Start processing HTTP request POST https://crea-api.local/api/CambioFp
+2025-10-20 13:38:25.461 -05:00 [INF] Sending HTTP request POST https://crea-api.local/api/CambioFp
+2025-10-20 13:38:25.471 -05:00 [ERR] Service resolution failed for product OMPEV. CorrelationId=057bfb3c72e34c22a661695c147bff8c
+System.InvalidOperationException: No ChangeFpService registered for product 'OMPEV'.
+   at ACCAI.Infrastructure.Adapters.ExternalServices.ChangeFpFactory.GetService(String product) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/ChangeFpFactory.cs:line 25
+   at ACCAI.Application.FpChanges.ValidateFpChangesCsvCommandHandler.HandleProductGroupAsync(String product, IEnumerable`1 group, List`1 errors, String correlationId, CancellationToken ct) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Application/FpChanges/ValidateFpChangesCsvCommandHandler.cs:line 143
+2025-10-20 13:38:25.485 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio OMPEV","Valor":"54712","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.485 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio OMPEV","Valor":"50651","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.485 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio OMPEV","Valor":"49928","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.487 -05:00 [INF] Sending ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":0,"Product":"ACCAI","ProductPlan":"01","Contract":3224,"$type":"ChangeFpItem"}
+2025-10-20 13:38:25.488 -05:00 [INF] Start processing HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 13:38:25.488 -05:00 [INF] Sending HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 13:38:25.490 -05:00 [INF] Sending ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":0,"Product":"ACCAI","ProductPlan":"01","Contract":5547,"$type":"ChangeFpItem"}
+2025-10-20 13:38:25.490 -05:00 [INF] Start processing HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 13:38:25.490 -05:00 [INF] Sending HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 13:38:25.491 -05:00 [INF] Sending ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":0,"Product":"ACCAI","ProductPlan":"01","Contract":12163,"$type":"ChangeFpItem"}
+2025-10-20 13:38:25.491 -05:00 [INF] Start processing HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 13:38:25.491 -05:00 [INF] Sending HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 13:38:25.491 -05:00 [ERR] Service resolution failed for product FPOB. CorrelationId=057bfb3c72e34c22a661695c147bff8c
+System.InvalidOperationException: No ChangeFpService registered for product 'FPOB'.
+   at ACCAI.Infrastructure.Adapters.ExternalServices.ChangeFpFactory.GetService(String product) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/ChangeFpFactory.cs:line 25
+   at ACCAI.Application.FpChanges.ValidateFpChangesCsvCommandHandler.HandleProductGroupAsync(String product, IEnumerable`1 group, List`1 errors, String correlationId, CancellationToken ct) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Application/FpChanges/ValidateFpChangesCsvCommandHandler.cs:line 143
+2025-10-20 13:38:25.491 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"178205","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.492 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"318829","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.492 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"321394","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.492 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"318891","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.492 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"250343","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.492 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"326493","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.493 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"331676","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.493 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"327358","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.493 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"326345","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.493 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"322063","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.493 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"321471","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.493 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"320250","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.493 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330544","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.494 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"292583","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.494 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330543","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.494 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330543","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.494 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"319936","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.494 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"326519","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.494 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"320991","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.495 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330146","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.495 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"322167","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.495 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"329600","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.496 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"327395","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.496 -05:00 [ERR] Service resolution failed for product FCES. CorrelationId=057bfb3c72e34c22a661695c147bff8c
+System.InvalidOperationException: No ChangeFpService registered for product 'FCES'.
+   at ACCAI.Infrastructure.Adapters.ExternalServices.ChangeFpFactory.GetService(String product) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/ChangeFpFactory.cs:line 25
+   at ACCAI.Application.FpChanges.ValidateFpChangesCsvCommandHandler.HandleProductGroupAsync(String product, IEnumerable`1 group, List`1 errors, String correlationId, CancellationToken ct) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Application/FpChanges/ValidateFpChangesCsvCommandHandler.cs:line 143
+2025-10-20 13:38:25.496 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"153560","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.496 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154719","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.496 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154719","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.496 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"153592","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.497 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"156548","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.497 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"156992","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.497 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"156482","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.497 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.498 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.498 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.498 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.498 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154016","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.498 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"153863","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.498 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154444","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.499 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"158376","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.499 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"157886","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.499 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"157886","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:25.499 -05:00 [ERR] Service resolution failed for product . CorrelationId=057bfb3c72e34c22a661695c147bff8c
+System.InvalidOperationException: No ChangeFpService registered for product ''.
+   at ACCAI.Infrastructure.Adapters.ExternalServices.ChangeFpFactory.GetService(String product) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/ChangeFpFactory.cs:line 25
+   at ACCAI.Application.FpChanges.ValidateFpChangesCsvCommandHandler.HandleProductGroupAsync(String product, IEnumerable`1 group, List`1 errors, String correlationId, CancellationToken ct) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Application/FpChanges/ValidateFpChangesCsvCommandHandler.cs:line 143
+2025-10-20 13:38:25.500 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio ","Valor":"","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:30.490 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"nodename nor servname provided, or not known (crea-api.local:443)","Valor":"51849","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:30.494 -05:00 [ERR] Network error while sending ChangeFp request.
+System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (accai-api.local:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at ACCAI.Infrastructure.Adapters.ExternalServices.AccaiChangeFpService.SendChangeAsync(ChangeFpItem change) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/AccaiChangeFpService.cs:line 25
+2025-10-20 13:38:30.499 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"El servicio externo ACCAI devolvió error.","Valor":"3224","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:35.499 -05:00 [ERR] Network error while sending ChangeFp request.
+System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (accai-api.local:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at ACCAI.Infrastructure.Adapters.ExternalServices.AccaiChangeFpService.SendChangeAsync(ChangeFpItem change) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/AccaiChangeFpService.cs:line 25
+2025-10-20 13:38:35.503 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"El servicio externo ACCAI devolvió error.","Valor":"5547","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:40.503 -05:00 [ERR] Network error while sending ChangeFp request.
+System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (accai-api.local:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at ACCAI.Infrastructure.Adapters.ExternalServices.AccaiChangeFpService.SendChangeAsync(ChangeFpItem change) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/AccaiChangeFpService.cs:line 25
+2025-10-20 13:38:40.506 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"El servicio externo ACCAI devolvió error.","Valor":"12163","$type":"RowError"} CorrelationId=057bfb3c72e34c22a661695c147bff8c
+2025-10-20 13:38:40.508 -05:00 [INF] Setting HTTP status code 400.
+2025-10-20 13:38:40.529 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-20 13:38:40.560 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-20 13:38:40.561 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 15521.6734 ms
+2025-10-20 13:38:40.581 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:63730/api/fp-changes/upload - 400 null application/json; charset=utf-8 15658.3322ms
+2025-10-20 13:39:45.492 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:63730/api/fp-changes/upload - multipart/form-data; boundary=--------------------------735293284518976063093046 10971
+2025-10-20 13:39:45.507 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-20 13:39:45.568 -05:00 [INF] CSV validation passed. CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.570 -05:00 [INF] Sending CREA ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":5831,"Product":"CREA","ProductPlan":"1","Contract":51849,"$type":"ChangeFpItem"}
+2025-10-20 13:39:45.573 -05:00 [INF] Start processing HTTP request POST https://crea-api.local/api/CambioFp
+2025-10-20 13:39:45.573 -05:00 [INF] Sending HTTP request POST https://crea-api.local/api/CambioFp
+2025-10-20 13:39:45.576 -05:00 [ERR] Service resolution failed for product OMPEV. CorrelationId=673332fd4d594c88a252c677b5835faf
+System.InvalidOperationException: No ChangeFpService registered for product 'OMPEV'.
+   at ACCAI.Infrastructure.Adapters.ExternalServices.ChangeFpFactory.GetService(String product) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/ChangeFpFactory.cs:line 25
+   at ACCAI.Application.FpChanges.ValidateFpChangesCsvCommandHandler.HandleProductGroupAsync(String product, IEnumerable`1 group, List`1 errors, String correlationId, CancellationToken ct) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Application/FpChanges/ValidateFpChangesCsvCommandHandler.cs:line 143
+2025-10-20 13:39:45.579 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio OMPEV","Valor":"54712","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.579 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio OMPEV","Valor":"50651","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.580 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio OMPEV","Valor":"49928","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.582 -05:00 [INF] Sending ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":5831,"Product":"ACCAI","ProductPlan":"1","Contract":3224,"$type":"ChangeFpItem"}
+2025-10-20 13:39:45.582 -05:00 [INF] Start processing HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 13:39:45.582 -05:00 [INF] Sending HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 13:39:45.582 -05:00 [INF] Sending ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":5831,"Product":"ACCAI","ProductPlan":"1","Contract":5547,"$type":"ChangeFpItem"}
+2025-10-20 13:39:45.583 -05:00 [INF] Start processing HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 13:39:45.583 -05:00 [INF] Sending HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 13:39:45.583 -05:00 [INF] Sending ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":5831,"Product":"ACCAI","ProductPlan":"1","Contract":12163,"$type":"ChangeFpItem"}
+2025-10-20 13:39:45.583 -05:00 [INF] Start processing HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 13:39:45.583 -05:00 [INF] Sending HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 13:39:45.584 -05:00 [INF] Sending ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":5831,"Product":"ACCAI","ProductPlan":"1","Contract":14809,"$type":"ChangeFpItem"}
+2025-10-20 13:39:45.584 -05:00 [INF] Start processing HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 13:39:45.584 -05:00 [INF] Sending HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 13:39:45.584 -05:00 [ERR] Service resolution failed for product FPOB. CorrelationId=673332fd4d594c88a252c677b5835faf
+System.InvalidOperationException: No ChangeFpService registered for product 'FPOB'.
+   at ACCAI.Infrastructure.Adapters.ExternalServices.ChangeFpFactory.GetService(String product) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/ChangeFpFactory.cs:line 25
+   at ACCAI.Application.FpChanges.ValidateFpChangesCsvCommandHandler.HandleProductGroupAsync(String product, IEnumerable`1 group, List`1 errors, String correlationId, CancellationToken ct) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Application/FpChanges/ValidateFpChangesCsvCommandHandler.cs:line 143
+2025-10-20 13:39:45.584 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"178205","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.585 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"318829","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.585 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"321394","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.585 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"318891","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.585 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"250343","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.586 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"326493","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.587 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"331676","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.588 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"327358","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.589 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"326345","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.589 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"322063","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.589 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"321471","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.589 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"320250","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.590 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330544","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.590 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"292583","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.591 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330543","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.591 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330543","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.591 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"319936","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.591 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"326519","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.591 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"320991","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.592 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330146","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.592 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"322167","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.592 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"329600","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.592 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"327395","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.592 -05:00 [ERR] Service resolution failed for product FCES. CorrelationId=673332fd4d594c88a252c677b5835faf
+System.InvalidOperationException: No ChangeFpService registered for product 'FCES'.
+   at ACCAI.Infrastructure.Adapters.ExternalServices.ChangeFpFactory.GetService(String product) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/ChangeFpFactory.cs:line 25
+   at ACCAI.Application.FpChanges.ValidateFpChangesCsvCommandHandler.HandleProductGroupAsync(String product, IEnumerable`1 group, List`1 errors, String correlationId, CancellationToken ct) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Application/FpChanges/ValidateFpChangesCsvCommandHandler.cs:line 143
+2025-10-20 13:39:45.593 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"153560","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.593 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154719","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.593 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154719","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.594 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"153592","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.594 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"156548","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.594 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"156992","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.594 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"156482","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.595 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.595 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.595 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.596 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.596 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154016","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.596 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"153863","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.596 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154444","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.596 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"158376","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.596 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"157886","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:45.597 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"157886","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:50.582 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"nodename nor servname provided, or not known (crea-api.local:443)","Valor":"51849","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:50.584 -05:00 [ERR] Network error while sending ChangeFp request.
+System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (accai-api.local:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at ACCAI.Infrastructure.Adapters.ExternalServices.AccaiChangeFpService.SendChangeAsync(ChangeFpItem change) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/AccaiChangeFpService.cs:line 25
+2025-10-20 13:39:50.587 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"El servicio externo ACCAI devolvió error.","Valor":"3224","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:39:55.594 -05:00 [ERR] Network error while sending ChangeFp request.
+System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (accai-api.local:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at ACCAI.Infrastructure.Adapters.ExternalServices.AccaiChangeFpService.SendChangeAsync(ChangeFpItem change) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/AccaiChangeFpService.cs:line 25
+2025-10-20 13:39:55.597 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"El servicio externo ACCAI devolvió error.","Valor":"5547","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:40:00.598 -05:00 [ERR] Network error while sending ChangeFp request.
+System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (accai-api.local:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at ACCAI.Infrastructure.Adapters.ExternalServices.AccaiChangeFpService.SendChangeAsync(ChangeFpItem change) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/AccaiChangeFpService.cs:line 25
+2025-10-20 13:40:00.600 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"El servicio externo ACCAI devolvió error.","Valor":"12163","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:40:05.602 -05:00 [ERR] Network error while sending ChangeFp request.
+System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (accai-api.local:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at ACCAI.Infrastructure.Adapters.ExternalServices.AccaiChangeFpService.SendChangeAsync(ChangeFpItem change) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/AccaiChangeFpService.cs:line 25
+2025-10-20 13:40:05.604 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"El servicio externo ACCAI devolvió error.","Valor":"14809","$type":"RowError"} CorrelationId=673332fd4d594c88a252c677b5835faf
+2025-10-20 13:40:05.606 -05:00 [INF] Setting HTTP status code 400.
+2025-10-20 13:40:05.607 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-20 13:40:05.610 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-20 13:40:05.610 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 20103.1283 ms
+2025-10-20 13:40:05.614 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:63730/api/fp-changes/upload - 400 null application/json; charset=utf-8 20124.6533ms
+2025-10-20 13:59:41.296 -05:00 [INF] Application is shutting down...
+2025-10-20 14:01:28.735 -05:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-10-20 14:01:28.778 -05:00 [INF] Now listening on: https://localhost:63730
+2025-10-20 14:01:28.779 -05:00 [INF] Now listening on: http://localhost:63731
+2025-10-20 14:01:28.780 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 14:01:28.780 -05:00 [INF] Hosting environment: Development
+2025-10-20 14:01:28.780 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Api
+2025-10-20 14:02:41.282 -05:00 [INF] Application is shutting down...
+2025-10-20 14:02:46.686 -05:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-10-20 14:02:46.719 -05:00 [INF] Now listening on: https://localhost:63730
+2025-10-20 14:02:46.720 -05:00 [INF] Now listening on: http://localhost:63731
+2025-10-20 14:02:46.721 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 14:02:46.721 -05:00 [INF] Hosting environment: Development
+2025-10-20 14:02:46.721 -05:00 [INF] Content root path: /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Api
+2025-10-20 14:04:56.951 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:63731/api/fpchanges/upload - multipart/form-data; boundary=----WebKitFormBoundaryN0QdW8ogBGt23EfA 10947
+2025-10-20 14:04:57.052 -05:00 [INF] CORS policy execution successful.
+2025-10-20 14:04:57.053 -05:00 [INF] HTTP POST /api/fpchanges/upload responded 404 in 1.7613 ms
+2025-10-20 14:04:57.059 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:63731/api/fpchanges/upload - 404 0 null 109.932ms
+2025-10-20 14:04:57.060 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:63731/api/fpchanges/upload, Response status code: 404
+2025-10-20 14:11:59.711 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:63730/api/fp-changes/upload - multipart/form-data; boundary=--------------------------551727100496757016940522 10971
+2025-10-20 14:11:59.731 -05:00 [INF] Executing endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-20 14:12:00.209 -05:00 [WRN] No store type was specified for the decimal property 'Cuenta' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 14:12:00.210 -05:00 [WRN] No store type was specified for the decimal property 'Saldo' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 14:12:00.210 -05:00 [WRN] No store type was specified for the decimal property 'SaldoCapital' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 14:12:00.210 -05:00 [WRN] No store type was specified for the decimal property 'SaldoRendimientos' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 14:12:00.210 -05:00 [WRN] No store type was specified for the decimal property 'SaldoUn' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 14:12:00.210 -05:00 [WRN] No store type was specified for the decimal property 'ValorAporteMes' on entity type 'Contrato'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-10-20 14:12:00.307 -05:00 [INF] CSV validation passed. CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.328 -05:00 [INF] Sending CREA ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":5831,"Product":"CREA","ProductPlan":"1","Contract":51849,"$type":"ChangeFpItem"}
+2025-10-20 14:12:00.357 -05:00 [INF] Start processing HTTP request POST https://crea-api.local/api/CambioFp
+2025-10-20 14:12:00.359 -05:00 [INF] Sending HTTP request POST https://crea-api.local/api/CambioFp
+2025-10-20 14:12:00.382 -05:00 [ERR] Service resolution failed for product OMPEV. CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+System.InvalidOperationException: No ChangeFpService registered for product 'OMPEV'.
+   at ACCAI.Infrastructure.Adapters.ExternalServices.ChangeFpFactory.GetService(String product) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/ChangeFpFactory.cs:line 25
+   at ACCAI.Application.FpChanges.ValidateFpChangesCsvCommandHandler.HandleProductGroupAsync(String product, IEnumerable`1 group, List`1 errors, String correlationId, CancellationToken ct) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Application/FpChanges/ValidateFpChangesCsvCommandHandler.cs:line 143
+2025-10-20 14:12:00.399 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio OMPEV","Valor":"54712","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.399 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio OMPEV","Valor":"50651","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.399 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio OMPEV","Valor":"49928","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.402 -05:00 [INF] Sending ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":5831,"Product":"ACCAI","ProductPlan":"1","Contract":3224,"$type":"ChangeFpItem"}
+2025-10-20 14:12:00.402 -05:00 [INF] Start processing HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 14:12:00.402 -05:00 [INF] Sending HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 14:12:00.404 -05:00 [INF] Sending ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":5831,"Product":"ACCAI","ProductPlan":"1","Contract":5547,"$type":"ChangeFpItem"}
+2025-10-20 14:12:00.404 -05:00 [INF] Start processing HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 14:12:00.404 -05:00 [INF] Sending HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 14:12:00.405 -05:00 [INF] Sending ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":5831,"Product":"ACCAI","ProductPlan":"1","Contract":12163,"$type":"ChangeFpItem"}
+2025-10-20 14:12:00.405 -05:00 [INF] Start processing HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 14:12:00.405 -05:00 [INF] Sending HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 14:12:00.405 -05:00 [INF] Sending ChangeFp request: {"PreviousAgentId":5834,"NewAgentId":5831,"Product":"ACCAI","ProductPlan":"1","Contract":14809,"$type":"ChangeFpItem"}
+2025-10-20 14:12:00.405 -05:00 [INF] Start processing HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 14:12:00.406 -05:00 [INF] Sending HTTP request POST https://accai-api.local/api/CambioFp
+2025-10-20 14:12:00.406 -05:00 [ERR] Service resolution failed for product FPOB. CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+System.InvalidOperationException: No ChangeFpService registered for product 'FPOB'.
+   at ACCAI.Infrastructure.Adapters.ExternalServices.ChangeFpFactory.GetService(String product) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/ChangeFpFactory.cs:line 25
+   at ACCAI.Application.FpChanges.ValidateFpChangesCsvCommandHandler.HandleProductGroupAsync(String product, IEnumerable`1 group, List`1 errors, String correlationId, CancellationToken ct) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Application/FpChanges/ValidateFpChangesCsvCommandHandler.cs:line 143
+2025-10-20 14:12:00.407 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"178205","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.407 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"318829","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.407 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"321394","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.407 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"318891","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.407 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"250343","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.408 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"326493","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.408 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"331676","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.408 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"327358","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.408 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"326345","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.408 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"322063","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.408 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"321471","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.408 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"320250","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.409 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330544","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.409 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"292583","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.409 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330543","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.409 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330543","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.409 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"319936","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.409 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"326519","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.410 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"320991","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.410 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"330146","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.410 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"322167","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.410 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"329600","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.410 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FPOB","Valor":"327395","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.410 -05:00 [ERR] Service resolution failed for product FCES. CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+System.InvalidOperationException: No ChangeFpService registered for product 'FCES'.
+   at ACCAI.Infrastructure.Adapters.ExternalServices.ChangeFpFactory.GetService(String product) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/ChangeFpFactory.cs:line 25
+   at ACCAI.Application.FpChanges.ValidateFpChangesCsvCommandHandler.HandleProductGroupAsync(String product, IEnumerable`1 group, List`1 errors, String correlationId, CancellationToken ct) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Application/FpChanges/ValidateFpChangesCsvCommandHandler.cs:line 143
+2025-10-20 14:12:00.411 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"153560","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.411 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154719","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.411 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154719","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.411 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"153592","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.411 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"156548","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.412 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"156992","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.412 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"156482","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.413 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.413 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.413 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.414 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154760","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.416 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154016","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.417 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"153863","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.418 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"154444","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.418 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"158376","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.419 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"157886","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:00.420 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"No se pudo resolver el servicio FCES","Valor":"157886","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:05.401 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"nodename nor servname provided, or not known (crea-api.local:443)","Valor":"51849","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:05.412 -05:00 [ERR] Network error while sending ChangeFp request.
+System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (accai-api.local:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at ACCAI.Infrastructure.Adapters.ExternalServices.AccaiChangeFpService.SendChangeAsync(ChangeFpItem change) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/AccaiChangeFpService.cs:line 25
+2025-10-20 14:12:05.417 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"El servicio externo ACCAI devolvió error.","Valor":"3224","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:10.420 -05:00 [ERR] Network error while sending ChangeFp request.
+System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (accai-api.local:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at ACCAI.Infrastructure.Adapters.ExternalServices.AccaiChangeFpService.SendChangeAsync(ChangeFpItem change) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/AccaiChangeFpService.cs:line 25
+2025-10-20 14:12:10.422 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"El servicio externo ACCAI devolvió error.","Valor":"5547","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:15.428 -05:00 [ERR] Network error while sending ChangeFp request.
+System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (accai-api.local:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at ACCAI.Infrastructure.Adapters.ExternalServices.AccaiChangeFpService.SendChangeAsync(ChangeFpItem change) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/AccaiChangeFpService.cs:line 25
+2025-10-20 14:12:15.431 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"El servicio externo ACCAI devolvió error.","Valor":"12163","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:20.445 -05:00 [ERR] Network error while sending ChangeFp request.
+System.Net.Http.HttpRequestException: nodename nor servname provided, or not known (accai-api.local:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): nodename nor servname provided, or not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at ACCAI.Infrastructure.Adapters.ExternalServices.AccaiChangeFpService.SendChangeAsync(ChangeFpItem change) in /Users/jamesvanstrahlen/Documents/ACCAI/ACCAI.Infrastructure/Adapters/ExternalServices/AccaiChangeFpService.cs:line 25
+2025-10-20 14:12:20.449 -05:00 [WRN] Processing error {"Linea":0,"Campo":"Producto","Mensaje":"El servicio externo ACCAI devolvió error.","Valor":"14809","$type":"RowError"} CorrelationId=59a87ea485bf49beb0e99f6e4e5cab00
+2025-10-20 14:12:20.452 -05:00 [INF] Setting HTTP status code 400.
+2025-10-20 14:12:20.458 -05:00 [INF] Writing value of type 'ValidationResponseDto' as Json.
+2025-10-20 14:12:20.470 -05:00 [INF] Executed endpoint 'HTTP: POST /api/fp-changes/upload'
+2025-10-20 14:12:20.471 -05:00 [INF] HTTP POST /api/fp-changes/upload responded 400 in 20733.4326 ms
+2025-10-20 14:12:20.477 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:63730/api/fp-changes/upload - 400 null application/json; charset=utf-8 20752.4222ms
+2025-10-20 14:15:32.578 -05:00 [INF] Application is shutting down...

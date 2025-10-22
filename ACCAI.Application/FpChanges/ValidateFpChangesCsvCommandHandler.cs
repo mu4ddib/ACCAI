@@ -6,6 +6,7 @@ using ACCAI.Domain.ReadModels;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Logging;
+using ACCAI.Application.Common;
 
 namespace ACCAI.Application.FpChanges;
 
@@ -56,12 +57,11 @@ public sealed class ValidateFpChangesCsvCommandHandler
 
         await ValidateRowsAsync(parsed.Rows, errors, correlationId, ct);
 
-        if (errors.Any())
-            _logger.LogWarning("CSV validation failed with {Count} errors. CorrelationId={CorrelationId}", errors.Count, correlationId);
-        else
-            _logger.LogInformation("CSV validation passed. CorrelationId={CorrelationId}", correlationId);
-
-        await ProcessFpChangesAsync(parsed.Rows, errors, correlationId, ct);
+        var rowIndexMap = parsed.Rows                
+            .Select((r, i) => new { r, line = i + 2 })   
+            .ToDictionary(x => x.r, x => x.line);
+        
+        await ProcessFpChangesAsync(parsed.Rows, rowIndexMap, errors, correlationId, ct);
 
         return ValidationResponseDto.From(parsed.Rows.Count, errors, correlationId);
     }
@@ -128,53 +128,82 @@ public sealed class ValidateFpChangesCsvCommandHandler
     /// <param name="ct"></param>
     /// <returns></returns>
 
-    private async Task ProcessFpChangesAsync(IEnumerable<FpChangeCsvRow> rows, List<RowError> errors, string correlationId, CancellationToken ct)
+    private async Task ProcessFpChangesAsync(
+        IEnumerable<FpChangeCsvRow> rows,
+        IReadOnlyDictionary<FpChangeCsvRow,int> rowIndexMap,  // ← NUEVO
+        List<RowError> errors,
+        string correlationId,
+        CancellationToken ct)
     {
         var grouped = rows.GroupBy(r => r.Producto);
-
-        var tasks = grouped.Select(group => HandleProductGroupAsync(group.Key, group, errors, correlationId, ct));
+        var tasks = grouped.Select(g => HandleProductGroupAsync(g.Key, g, rowIndexMap, errors, correlationId, ct));
         await Task.WhenAll(tasks);
     }
 
-    private async Task HandleProductGroupAsync(string product, IEnumerable<FpChangeCsvRow> group, List<RowError> errors, string correlationId, CancellationToken ct)
+    private async Task HandleProductGroupAsync(
+    string product,
+    IEnumerable<FpChangeCsvRow> group,
+    IReadOnlyDictionary<FpChangeCsvRow,int> rowIndexMap,  // ← NUEVO
+    List<RowError> errors,
+    string correlationId,
+    CancellationToken ct)
+{
+    try
     {
-        try
+        var service = _factory.GetService(product);
+        var changes = new ConcurrentBag<ChangeFpItem>();
+
+        var tasks = group.Select(async row =>
         {
-            var service = _factory.GetService(product);
-            var changes = new ConcurrentBag<ChangeFpItem>();
-            var tasks = group.Select(async row =>
+            try
             {
-                try
-                {
-                    var change = MapToChange(row);
-                    var success = await service.SendChangeAsync(change);
+                var change = MapToChange(row);
 
-                    if (success)
-                        changes.Add(change);
-                    else
-                        AddError(errors, row, $"El servicio externo {product} devolvió error.", correlationId);
-                }
-                catch (Exception ex)
-                {
-                    AddError(errors, row, ex.Message, correlationId);
-                }
-            });
+                // El servicio ahora LANZA excepciones canónicas si hay error
+                await service.SendChangeAsync(change);
 
-            await Task.WhenAll(tasks);
-
-            if (changes.Any())
+                changes.Add(change);
+            }
+            catch (Exception ex)
             {
-                var affected = await _contractsRepository.UpdateContractsAgentAsyncUpdateContractsAgentsAsync(changes.ToList());
-                _logger.LogInformation("Product {Product}: {Count} contracts updated in DB. CorrelationId={CorrelationId}", product, affected, correlationId);
+                // Mapeo compacto: code + message
+                var apiErr = ex.ToApiError(target: $"external:{product.ToLower()}");
+                AddError(errors, rowIndexMap[row], nameof(row.Producto),
+                         $"{apiErr.Code}: {apiErr.Message}", row.Contrato, correlationId);
+            }
+        });
+
+        await Task.WhenAll(tasks);
+
+        if (changes.Any())
+        {
+            try
+            {
+                // Asegúrate del nombre correcto del método en tu repo:
+                var affected = await _contractsRepository.UpdateContractsAgentAsync(changes.ToList(), ct);
+                _logger.LogInformation("Product {Product}: {Count} contracts updated in DB. CorrelationId={CorrelationId}",
+                    product, affected, correlationId);
+            }
+            catch (Exception ex)
+            {
+                var apiErr = ex.ToApiError(target: "db:contratos");
+                foreach (var row in group) // puedes optar por 1 solo error general si prefieres
+                    AddError(errors, rowIndexMap[row], "_db",
+                             $"{apiErr.Code}: {apiErr.Message}", row.Contrato, correlationId);
             }
         }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, "Service resolution failed for product {Product}. CorrelationId={CorrelationId}", product, correlationId);
-            foreach (var row in group)
-                AddError(errors, row, $"No se pudo resolver el servicio {product}", correlationId);
-        }
     }
+    catch (Exception ex) // error resolviendo el servicio del producto
+    {
+        var apiErr = ex.ToApiError(target: $"external:{product.ToLower()}",
+                                   codeOverride: "external.service_resolution",
+                                   messageOverride: $"No se pudo resolver el servicio {product}");
+        foreach (var row in group)
+            AddError(errors, rowIndexMap[row], nameof(row.Producto),
+                     $"{apiErr.Code}: {apiErr.Message}", row.Contrato, correlationId);
+    }
+}
+    
     /// <summary>
     /// Maps a CSV row to a ChangeFpItem
     /// </summary>
@@ -190,9 +219,9 @@ public sealed class ValidateFpChangesCsvCommandHandler
         Contract = int.TryParse(row.Contrato, out var contract) ? contract : 0
     };
 
-    private void AddError(List<RowError> errors, FpChangeCsvRow row, string message, string correlationId)
+    private void AddError(List<RowError> errors, int line, string field, string message, string? value, string correlationId)
     {
-        var error = new RowError(0, nameof(row.Producto), message, row.Contrato);
+        var error = new RowError(line, field, message, value);
         errors.Add(error);
         _logger.LogWarning("Processing error {@Error} CorrelationId={CorrelationId}", error, correlationId);
     }
