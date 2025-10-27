@@ -10,7 +10,7 @@ using Microsoft.Data.SqlClient;
 
 namespace ACCAI.Infrastructure.Adapters;
 [Repository]
-public class ContractsRepository : GenericRepository<Voter>, IContractsRepository
+public class ContractsRepository : GenericRepository<Contrato>, IContractsRepository
 {
     private readonly ILogger<ContractsRepository> _logger;
     public ContractsRepository(DataContext ctx, ILogger<ContractsRepository> logger) : base(ctx)

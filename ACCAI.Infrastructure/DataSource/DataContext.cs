@@ -2,10 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using ACCAI.Domain.Entities;
 using CsvHelper.Configuration.Attributes;
 namespace ACCAI.Infrastructure.DataSource;
-public sealed class DataContext : DbContext
+public  class DataContext : DbContext
 {
     public DataContext(DbContextOptions<DataContext> options) : base(options) { }
-    //public DbSet<Voter> Voters => Set<Voter>();
     public DbSet<Contrato> Contracts { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

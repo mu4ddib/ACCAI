@@ -1,1 +1,0 @@
-using MediatR; using ACCAI.Application.Dtos; namespace ACCAI.Application.Voters; public sealed record VoterRegisterCommand(string Nid, string Origin, DateTime DateOfBirth) : IRequest<VoterDto>;

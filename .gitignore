@@ -374,6 +374,8 @@ FodyWeavers.xsd
 
 *.sonarqube
 *.env
+
+dotCover.Output.html
 .env
 .idea
 /.idea/
@@ -383,10 +385,12 @@ FodyWeavers.xsd
 /.sonarlint/
 
 
-/ACCAI.Api/bin/
-/ACCAI.Api/obj/
-/ACCAI.Api/.env
+#Variables de entorno
 
+/ACCAI.Api/bin
+/ACCAI.Api/obj
+/ACCAI.Api/.env
+/dotCover.Output
 /ACCAI.Application/bin
 /ACCAI.Application/obj
 
@@ -395,5 +399,21 @@ FodyWeavers.xsd
 
 /ACCAI.Infrastructure/bin
 /ACCAI.Infrastructure/obj
+/ACCAI.Infrastructure/Migrations
 
-*.yml
+#Test
+
+/ACCAI.Test/bin
+/ACCAI.Test/obj
+
+/ACCAI.Api.Test/bin
+/ACCAI.Api.Test/obj
+
+/ACCAI.Application.Test/bin
+/ACCAI.Application.Test/obj
+
+/ACCAI.Domain.Test/bin
+/ACCAI.Domain.Test/obj
+
+/ACCAI.Infrastructure.Test/bin
+/ACCAI.Infrastructure.Test/obj

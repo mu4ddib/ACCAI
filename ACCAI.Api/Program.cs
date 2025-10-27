@@ -1,12 +1,9 @@
-using MediatR;
-using Microsoft.EntityFrameworkCore;
 using ACCAI.Application.Abstractions;
-using ACCAI.Application.Voters;
 using ACCAI.Infrastructure.DataSource;
 using ACCAI.Infrastructure.Extensions;
-using ACCAI.Domain.Services;
-using Prometheus;
 using FluentValidation;
+using Microsoft.EntityFrameworkCore;
+using Prometheus;
 using Serilog;
 
 
@@ -37,7 +34,7 @@ builder.Services.AddValidatorsFromAssembly(typeof(ApplicationAssembly).Assembly)
 builder.Services.AddHealthChecks().AddDbContextCheck<DataContext>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddAttributedServices(typeof(RecordVoterService).Assembly, typeof(DataContext).Assembly);
+builder.Services.AddAttributedServices(typeof(DataContext).Assembly);
 builder.Services.AddInfrastructureServices(cfg);
 builder.Services.AddInfrastructure();
 var app = builder.Build();
@@ -48,9 +45,10 @@ app.UseRouting();
 app.UseHttpMetrics();
 app.UseSerilogRequestLogging();
 app.UseMiddleware<ACCAI.Api.Middleware.ExceptionMiddleware>();
-ACCAI.Api.Endpoints.VoterEndpoints.Map(app);
 ACCAI.Api.Endpoints.FpChangesEndpoints.Map(app);
 app.UseCors("AllowAllOrigins");
 app.MapHealthChecks("/health");
 app.MapMetrics();
 app.Run();
+
+public partial class Program { }
