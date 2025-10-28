@@ -23,9 +23,10 @@ public class ContractsRepository : GenericRepository<Contrato>, IContractsReposi
 
         try
         {
-            var contractNumbers = changes.Select(c => c.Contract).ToList();
+            var changeFpItems = changes as ChangeFpItem[] ?? changes.ToArray();
+            var contractNumbers = changeFpItems.Select(c => c.Contract).ToList();
             var contracts = await _ctx.Contracts
-                .Where(c => contractNumbers.Contains(c.NumeroContrato))
+                .Where(c => contractNumbers.Contains<string>(c.NumeroContrato))
                 .ToListAsync(ct);
 
             if (contracts.Count == 0)
@@ -36,7 +37,7 @@ public class ContractsRepository : GenericRepository<Contrato>, IContractsReposi
 
             foreach (var contract in contracts)
             {
-                var change = changes.FirstOrDefault(c =>
+                var change = changeFpItems.FirstOrDefault(c =>
                     c.Contract == contract.NumeroContrato &&
                     c.PreviousAgentId == contract.IdAgte);
 

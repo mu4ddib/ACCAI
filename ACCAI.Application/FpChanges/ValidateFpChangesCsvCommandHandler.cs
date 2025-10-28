@@ -248,7 +248,7 @@ public sealed class ValidateFpChangesCsvCommandHandler
                 catch (Exception ex)
                 {
                     var apiErr = ex.ToApiError(target: $"external:{product.ToLower()}");
-                    AddError(errors, rowIndexMap[row], nameof(row.Producto),
+                    AddError(errors, rowIndexMap[row], nameof(row.Contrato),
                              $"{apiErr.Code}: {apiErr.Message}", row.Contrato, correlationId);
                 }
             });
@@ -267,7 +267,7 @@ public sealed class ValidateFpChangesCsvCommandHandler
                 {
                     var apiErr = ex.ToApiError(target: "db:contratos");
                     foreach (var row in group)
-                        AddError(errors, rowIndexMap[row], "_db",
+                        AddError(errors, rowIndexMap[row], "Contrato",
                                  $"{apiErr.Code}: {apiErr.Message}", row.Contrato, correlationId);
                 }
             }
@@ -288,11 +288,11 @@ public sealed class ValidateFpChangesCsvCommandHandler
 
     private static ChangeFpItem MapToChange(FpChangeCsvRow row) => new()
     {
-        PreviousAgentId = int.TryParse(row.IdAgte, out var prev) ? prev : 0,
-        NewAgentId = int.TryParse(row.IdAgteNuevo, out var next) ? next : 0,
+        PreviousAgentId = row.IdAgte,
+        NewAgentId = row.IdAgteNuevo,
         Product = row.Producto,
         ProductPlan = row.PlanProducto,
-        Contract = int.TryParse(row.Contrato, out var contract) ? contract : 0
+        Contract = row.Contrato
     };
 
     private void AddError(List<RowError> errors, int line, string field, string message, string? value, string correlationId)

@@ -52,15 +52,17 @@ namespace ACCAI.Infrastructure.Migrations
                     b.Property<DateTime?>("FecUltimoAporte")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("IdAgte")
-                        .HasColumnType("int");
+                    b.Property<string>("IdAgte")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NroDocum")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("NumeroContrato")
-                        .HasColumnType("int");
+                    b.Property<string>("NumeroContrato")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PclidAfi")
                         .HasColumnType("int");
@@ -107,9 +109,9 @@ namespace ACCAI.Infrastructure.Migrations
                             FecSaldo = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FecTerminacion = new DateTime(2025, 1, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FecUltimoAporte = new DateTime(2025, 1, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IdAgte = 5,
+                            IdAgte = "5834",
                             NroDocum = "123456789",
-                            NumeroContrato = 10001,
+                            NumeroContrato = "10001",
                             PclidAfi = 101,
                             PlanProducto = "Plan Básico",
                             Producto = "Ahorro Programado",
@@ -130,9 +132,9 @@ namespace ACCAI.Infrastructure.Migrations
                             FecSaldo = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FecTerminacion = new DateTime(2026, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             FecUltimoAporte = new DateTime(2025, 1, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IdAgte = 7,
+                            IdAgte = "5834",
                             NroDocum = "987654321",
-                            NumeroContrato = 10002,
+                            NumeroContrato = "10002",
                             PclidAfi = 102,
                             PlanProducto = "Premium",
                             Producto = "Fondo de Inversión",

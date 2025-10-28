@@ -4,7 +4,7 @@ public class Contrato
 {
     public int Id { get; set; }
     public string Producto { get; set; }
-    public int NumeroContrato { get; set; }
+    public string NumeroContrato { get; set; }
     public string PlanProducto { get; set; }
     public string NroDocum { get; set; }
     public string TipoDocum { get; set; }
@@ -18,7 +18,7 @@ public class Contrato
     public decimal? ValorAporteMes { get; set; }
     public DateTime? FecUltimoAporte { get; set; }
     public string EstadoContrato { get; set; }
-    public int IdAgte { get; set; }
+    public string IdAgte { get; set; }
     public decimal? SaldoCapital { get; set; }
     public decimal? SaldoRendimientos { get; set; }
     public decimal? Cuenta { get; set; }

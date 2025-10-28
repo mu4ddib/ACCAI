@@ -5,10 +5,10 @@ namespace ACCAI.Domain.ReadModels;
 public class ChangeFpItem
 {
     [JsonPropertyName("idAgenteAnterior")]
-    public int PreviousAgentId { get; set; }
+    public string PreviousAgentId { get; set; }
 
     [JsonPropertyName("idAgenteNuevo")]
-    public int NewAgentId { get; set; }
+    public string NewAgentId { get; set; }
 
     [JsonPropertyName("producto")]
     public string Product { get; set; }
@@ -17,5 +17,5 @@ public class ChangeFpItem
     public string ProductPlan { get; set; }
 
     [JsonPropertyName("contrato")]
-    public int Contract { get; set; }
+    public string Contract { get; set; }
 }

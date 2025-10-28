@@ -21,7 +21,7 @@ public class ContratoConfig : IEntityTypeConfiguration<Contrato>
               {
                   Id = 1,
                   Producto = "Ahorro Programado",
-                  NumeroContrato = 10001,
+                  NumeroContrato = "10001",
                   PlanProducto = "Plan Básico",
                   NroDocum = "123456789",
                   TipoDocum = "CC",
@@ -35,7 +35,7 @@ public class ContratoConfig : IEntityTypeConfiguration<Contrato>
                   ValorAporteMes = 50000m,
                   FecUltimoAporte = new DateTime(2025, 1, 10),
                   EstadoContrato = "Activo",
-                  IdAgte = 5,
+                  IdAgte = "5834",
                   SaldoCapital = 1200000m,
                   SaldoRendimientos = 300000m,
                   Cuenta = 10001
@@ -44,7 +44,7 @@ public class ContratoConfig : IEntityTypeConfiguration<Contrato>
               {
                   Id = 2,
                   Producto = "Fondo de Inversión",
-                  NumeroContrato = 10002,
+                  NumeroContrato = "10002",
                   PlanProducto = "Premium",
                   NroDocum = "987654321",
                   TipoDocum = "CC",
@@ -58,7 +58,7 @@ public class ContratoConfig : IEntityTypeConfiguration<Contrato>
                   ValorAporteMes = 200000m,
                   FecUltimoAporte = new DateTime(2025, 1, 5),
                   EstadoContrato = "Activo",
-                  IdAgte = 7,
+                  IdAgte = "5834",
                   SaldoCapital = 3000000m,
                   SaldoRendimientos = 500000m,
                   Cuenta = 10002
