@@ -54,13 +54,13 @@ public class DataContextTests
         {
             Id = 99,
             Producto = "Ahorro Futuro",
-            NumeroContrato = 50001,
+            NumeroContrato = "50001",
             PlanProducto = "Plan Gold",
             NroDocum = "111222333",
             TipoDocum = "CC",
             PclidAfi = 500,
             EstadoContrato = "Activo",
-            IdAgte = 1
+            IdAgte = "1"
         };
 
         await context.Contracts.AddAsync(contrato);

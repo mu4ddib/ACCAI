@@ -6,7 +6,10 @@ using ACCAI.Infrastructure.DataSource;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using ACCAI.Application.Common;
+using EFCore.BulkExtensions;
 using Microsoft.Data.SqlClient;
+
+
 
 namespace ACCAI.Infrastructure.Adapters;
 [Repository]
@@ -47,6 +50,7 @@ public class ContractsRepository : GenericRepository<Contrato>, IContractsReposi
                 }
             }
 
+            await _ctx.BulkUpdateAsync(contracts, cancellationToken: ct);
             var affected = await _ctx.SaveChangesAsync(ct);
             _logger.LogInformation("Updated {Count} contracts successfully.", affected);
 

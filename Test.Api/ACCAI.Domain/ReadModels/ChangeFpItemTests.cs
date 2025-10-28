@@ -12,21 +12,21 @@ public class ChangeFpItemTests
         // Arrange
         var item = new ChangeFpItem
         {
-            PreviousAgentId = 10,
-            NewAgentId = 20,
+            PreviousAgentId = "10",
+            NewAgentId = "20",
             Product = "ACCAI",
             ProductPlan = "Premium",
-            Contract = 999
+            Contract = "999"
         };
 
         // Assert
         Assert.Multiple(() =>
         {
-            Assert.That(item.PreviousAgentId, Is.EqualTo(10));
-            Assert.That(item.NewAgentId, Is.EqualTo(20));
+            Assert.That(item.PreviousAgentId, Is.EqualTo("10"));
+            Assert.That(item.NewAgentId, Is.EqualTo("20"));
             Assert.That(item.Product, Is.EqualTo("ACCAI"));
             Assert.That(item.ProductPlan, Is.EqualTo("Premium"));
-            Assert.That(item.Contract, Is.EqualTo(999));
+            Assert.That(item.Contract, Is.EqualTo("999"));
         });
     }
 
@@ -36,11 +36,11 @@ public class ChangeFpItemTests
         // Arrange
         var original = new ChangeFpItem
         {
-            PreviousAgentId = 1,
-            NewAgentId = 2,
+            PreviousAgentId = "1",
+            NewAgentId = "2",
             Product = "TestProduct",
             ProductPlan = "TestPlan",
-            Contract = 123
+            Contract = "123"
         };
 
         // Act
@@ -54,10 +54,10 @@ public class ChangeFpItemTests
         Assert.That(json, Does.Contain("planProducto"));
         Assert.That(json, Does.Contain("contrato"));
 
-        Assert.That(deserialized!.PreviousAgentId, Is.EqualTo(1));
-        Assert.That(deserialized.NewAgentId, Is.EqualTo(2));
+        Assert.That(deserialized!.PreviousAgentId, Is.EqualTo("1"));
+        Assert.That(deserialized.NewAgentId, Is.EqualTo("2"));
         Assert.That(deserialized.Product, Is.EqualTo("TestProduct"));
         Assert.That(deserialized.ProductPlan, Is.EqualTo("TestPlan"));
-        Assert.That(deserialized.Contract, Is.EqualTo(123));
+        Assert.That(deserialized.Contract, Is.EqualTo("123"));
     }
 }

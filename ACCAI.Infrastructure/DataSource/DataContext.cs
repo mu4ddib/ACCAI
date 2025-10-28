@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using ACCAI.Domain.Entities;
 using CsvHelper.Configuration.Attributes;
 namespace ACCAI.Infrastructure.DataSource;
+
 public  class DataContext : DbContext
 {
     public DataContext(DbContextOptions<DataContext> options) : base(options) { }

@@ -32,7 +32,7 @@ public class ContractsRepositoryTests
         var repo = new ContractsRepository(context, _loggerMock.Object);
         var changes = new List<ChangeFpItem>
             {
-                new ChangeFpItem { Contract = 999, PreviousAgentId = 1, NewAgentId = 2 }
+                new ChangeFpItem { Contract = "999", PreviousAgentId = "1", NewAgentId = "2" }
             };
 
         // Act
@@ -51,8 +51,8 @@ public class ContractsRepositoryTests
         failingContext.Contracts.Add(new Contrato
         {
             Id = 1,
-            NumeroContrato = 1,
-            IdAgte = 1,
+            NumeroContrato = "1",
+            IdAgte = "1",
             Producto = "Prod",
             PlanProducto = "PlanA",
             EstadoContrato = "Activo",
@@ -64,7 +64,7 @@ public class ContractsRepositoryTests
         var repo = new ContractsRepository(failingContext, _loggerMock.Object);
         var changes = new List<ChangeFpItem>
     {
-        new ChangeFpItem { Contract = 1, PreviousAgentId = 1, NewAgentId = 2 }
+        new ChangeFpItem { Contract = "1", PreviousAgentId = "1", NewAgentId = "2" }
     };
 
         // Act & Assert
@@ -82,8 +82,8 @@ public class ContractsRepositoryTests
         failingContext.Contracts.Add(new Contrato
         {
             Id = 1,
-            NumeroContrato = 1,
-            IdAgte = 1,
+            NumeroContrato = "1",
+            IdAgte = "1",
             Producto = "Prod",
             PlanProducto = "PlanA",
             EstadoContrato = "Activo",
@@ -95,7 +95,7 @@ public class ContractsRepositoryTests
         var repo = new ContractsRepository(failingContext, _loggerMock.Object);
         var changes = new List<ChangeFpItem>
     {
-        new ChangeFpItem { Contract = 1, PreviousAgentId = 1, NewAgentId = 2 }
+        new ChangeFpItem { Contract = "1", PreviousAgentId = "1", NewAgentId = "2" }
     };
 
         // Act & Assert

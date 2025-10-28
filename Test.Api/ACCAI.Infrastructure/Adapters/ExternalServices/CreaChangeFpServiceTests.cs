@@ -46,7 +46,7 @@ public class CreaChangeFpServiceTests
         var service = new CreaChangeFpService(client, _loggerMock.Object);
 
         // Act
-        var result = await service.SendChangeAsync(new ChangeFpItem { Contract = 1 });
+        var result = await service.SendChangeAsync(new ChangeFpItem { Contract = "1" });
 
         // Assert
         Assert.That(result, Is.True);
@@ -69,7 +69,7 @@ public class CreaChangeFpServiceTests
         var service = new CreaChangeFpService(client, _loggerMock.Object);
 
         // Act
-        var result = await service.SendChangeAsync(new ChangeFpItem { Contract = 2 });
+        var result = await service.SendChangeAsync(new ChangeFpItem { Contract = "2" });
 
         // Assert
         Assert.That(result, Is.False);
@@ -97,6 +97,6 @@ public class CreaChangeFpServiceTests
 
         // Act & Assert
         Assert.ThrowsAsync<HttpRequestException>(async () =>
-            await service.SendChangeAsync(new ChangeFpItem { Contract = 3 }));
+            await service.SendChangeAsync(new ChangeFpItem { Contract = "3" }));
     }
 }

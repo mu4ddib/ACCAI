@@ -43,13 +43,13 @@ public class UnitOfWorkTests
         {
             Id = 1,
             Producto = "TestProducto",
-            NumeroContrato = 999,
+            NumeroContrato = "999",
             PlanProducto = "TestPlan",
             NroDocum = "123",
             TipoDocum = "CC",
             PclidAfi = 10,
             EstadoContrato = "Activo",
-            IdAgte = 5
+            IdAgte = "5"
         };
 
         await context.Contracts.AddAsync(contrato);

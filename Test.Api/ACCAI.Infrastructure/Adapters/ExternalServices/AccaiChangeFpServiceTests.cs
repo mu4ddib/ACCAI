@@ -46,7 +46,7 @@ public class AccaiChangeFpServiceTests
         var service = new AccaiChangeFpService(client, _loggerMock.Object);
 
         // Act
-        var result = await service.SendChangeAsync(new ChangeFpItem { Contract = 1 });
+        var result = await service.SendChangeAsync(new ChangeFpItem { Contract = "1" });
 
         // Assert
         Assert.That(result, Is.True);
@@ -74,7 +74,7 @@ public class AccaiChangeFpServiceTests
 
         // Act & Assert
         var ex = Assert.ThrowsAsync<ExternalServiceException>(
-            async () => await service.SendChangeAsync(new ChangeFpItem { Contract = 1 }));
+            async () => await service.SendChangeAsync(new ChangeFpItem { Contract = "1" }));
 
         Assert.That(ex.Code, Is.EqualTo("http.timeout"));
     }
@@ -102,7 +102,7 @@ public class AccaiChangeFpServiceTests
 
         // Act & Assert
         var ex = Assert.ThrowsAsync<ExternalServiceException>(
-            async () => await service.SendChangeAsync(new ChangeFpItem { Contract = 4 }));
+            async () => await service.SendChangeAsync(new ChangeFpItem { Contract = "4" }));
 
         Assert.That(ex.Code, Is.EqualTo("http.network"));
     }
@@ -129,7 +129,7 @@ public class AccaiChangeFpServiceTests
 
         // Act & Assert
         var ex = Assert.ThrowsAsync<ExternalServiceException>(
-            async () => await service.SendChangeAsync(new ChangeFpItem { Contract = 5 }));
+            async () => await service.SendChangeAsync(new ChangeFpItem { Contract = "5" }));
 
         Assert.That(ex.Code, Is.EqualTo("external.error"));
     }

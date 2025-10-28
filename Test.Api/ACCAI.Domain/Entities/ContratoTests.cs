@@ -14,7 +14,7 @@ public class ContratoTests
         {
             Id = 1,
             Producto = "ACCAI",
-            NumeroContrato = 12345,
+            NumeroContrato = "12345",
             PlanProducto = "Plan Premium",
             NroDocum = "100200300",
             TipoDocum = "C",
@@ -28,7 +28,7 @@ public class ContratoTests
             ValorAporteMes = 500.00m,
             FecUltimoAporte = fecha.AddDays(-2),
             EstadoContrato = "Activo",
-            IdAgte = 99,
+            IdAgte = "99",
             SaldoCapital = 800.25m,
             SaldoRendimientos = 120.75m,
             Cuenta = 999.99m
@@ -37,7 +37,7 @@ public class ContratoTests
         // Act & Assert — cada propiedad conserva su valor asignado
         Assert.That(contrato.Id, Is.EqualTo(1));
         Assert.That(contrato.Producto, Is.EqualTo("ACCAI"));
-        Assert.That(contrato.NumeroContrato, Is.EqualTo(12345));
+        Assert.That(contrato.NumeroContrato, Is.EqualTo("12345"));
         Assert.That(contrato.PlanProducto, Is.EqualTo("Plan Premium"));
         Assert.That(contrato.NroDocum, Is.EqualTo("100200300"));
         Assert.That(contrato.TipoDocum, Is.EqualTo("C"));
@@ -51,7 +51,7 @@ public class ContratoTests
         Assert.That(contrato.ValorAporteMes, Is.EqualTo(500.00m));
         Assert.That(contrato.FecUltimoAporte, Is.EqualTo(fecha.AddDays(-2)));
         Assert.That(contrato.EstadoContrato, Is.EqualTo("Activo"));
-        Assert.That(contrato.IdAgte, Is.EqualTo(99));
+        Assert.That(contrato.IdAgte, Is.EqualTo("99"));
         Assert.That(contrato.SaldoCapital, Is.EqualTo(800.25m));
         Assert.That(contrato.SaldoRendimientos, Is.EqualTo(120.75m));
         Assert.That(contrato.Cuenta, Is.EqualTo(999.99m));

@@ -208,7 +208,7 @@ public class ValidateFpChangesCsvCommandHandlerTests
         var result = await _handler.Handle(cmd, CancellationToken.None);
 
         Assert.That(result.Errores, Is.GreaterThan(0));
-        Assert.That(result.Detalle[0].Campo, Is.EqualTo("_db"));
+        Assert.That(result.Detalle[0].Campo, Is.EqualTo("Contrato"));
     }
 
     [Test]
